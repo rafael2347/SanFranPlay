@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "SanFranPlay",
+    "slug": "SanFranPlay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logoSanFran.ico",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logoSanFranSinFondo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#aec4db"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rafael2347.SanFranPlay"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logoSanFran.ico",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rafael2347.SanFranPlay"
+    },
+    "web": {
+      "favicon": "./assets/logoSanFran.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9c7248f3-5471-4b26-9827-5afe6b7a82ef"
+      }
+    }
+  }
+}
