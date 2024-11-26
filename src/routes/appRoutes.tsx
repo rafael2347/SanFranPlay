@@ -23,8 +23,8 @@ function MyTabs() {
           return <Icon name={iconName} size={iconSize} color={color} />;
         },
         tabBarLabelStyle: {
-            fontSize: 18, // Este es el tamaño reducido para el texto
-            fontWeight: 'normal', // Puedes ajustar el peso de la fuente si lo deseas
+            fontSize: 18, // Tamaño reducido para el texto
+            fontWeight: 'normal', // Peso de la fuente 
         },
         tabBarActiveTintColor: 'white',
         tabBarInactiveTintColor: 'white',
@@ -42,12 +42,12 @@ function MyTabs() {
 
 const styles = StyleSheet.create({
   tabBar: {
-    backgroundColor: '#aec4db',
+    backgroundColor: '#82A6C3',
     fontSize: 20,
     
   },
   header: {
-    backgroundColor: '#aec4db',
+    backgroundColor: '#82A6C3',
   },
   headerTitle: {
     fontWeight: 'bold',
