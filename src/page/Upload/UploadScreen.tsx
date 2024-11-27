@@ -1,10 +1,20 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, Image, TouchableOpacity, Alert, Keyboard, TouchableWithoutFeedback, StyleSheet } from 'react-native';
+import {
+  View,
+  Text,
+  TextInput,
+  Image,
+  TouchableOpacity,
+  Alert,
+  Keyboard,
+  TouchableWithoutFeedback,
+  StyleSheet,
+  ActivityIndicator,
+} from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { collection, addDoc, Timestamp } from 'firebase/firestore';
-import { getAuth } from 'firebase/auth';
-import { db } from '../../config/conexionBd';
+import { db } from '../../config/conexionBd';  // Asegúrate de que la ruta a la configuración de Firebase esté correcta
 
 const UploadScreen = () => {
   const [title, setTitle] = useState('');
@@ -12,6 +22,7 @@ const UploadScreen = () => {
   const [image, setImage] = useState<string | null>(null);
   const [uploading, setUploading] = useState(false);
 
+  // Función para seleccionar una imagen (de la galería o cámara)
   const handlePickImage = async () => {
     Alert.alert('Seleccionar Imagen', 'Elige una opción', [
       { text: 'Tomar Foto', onPress: handleTakePhoto },
@@ -20,18 +31,21 @@ const UploadScreen = () => {
     ]);
   };
 
+  // Función para seleccionar una imagen desde la galería
   const handleSelectFromGallery = async () => {
-    const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
-    if (status !== 'granted') {
-      Alert.alert('Permiso denegado', 'Necesitas permisos para acceder a la galería.');
+    const permissionResult = await ImagePicker.requestMediaLibraryPermissionsAsync();
+    if (!permissionResult.granted) {
+      Alert.alert(
+        'Permiso denegado',
+        'Debes otorgar permisos para acceder a la galería. Ve a configuración.'
+      );
       return;
     }
 
     const result = await ImagePicker.launchImageLibraryAsync({
       mediaTypes: ImagePicker.MediaTypeOptions.Images,
       allowsEditing: true,
-      aspect: [4, 3], // Relación de aspecto para evitar bordes
-      quality: 1,
+      quality: 1, // Calidad máxima
     });
 
     if (!result.canceled) {
@@ -39,17 +53,21 @@ const UploadScreen = () => {
     }
   };
 
+  // Función para tomar una foto con la cámara
   const handleTakePhoto = async () => {
-    const { status } = await ImagePicker.requestCameraPermissionsAsync();
-    if (status !== 'granted') {
-      Alert.alert('Permiso denegado', 'Necesitas permisos para usar la cámara.');
+    const permissionResult = await ImagePicker.requestCameraPermissionsAsync();
+    if (!permissionResult.granted) {
+      Alert.alert(
+        'Permiso denegado',
+        'Debes otorgar permisos para usar la cámara. Ve a configuración.'
+      );
       return;
     }
 
     const result = await ImagePicker.launchCameraAsync({
       allowsEditing: true,
-      aspect: [4, 3], // Relación de aspecto para evitar bordes
-      quality: 1,
+      aspect: [16, 9], // Relación de aspecto panorámica
+      quality: 1, // Calidad máxima
     });
 
     if (!result.canceled) {
@@ -57,42 +75,39 @@ const UploadScreen = () => {
     }
   };
 
+  // Función para subir la canción
   const handleUploadPost = async () => {
+    // Verificar si los campos están vacíos
     if (!title.trim() || !number.trim()) {
       Alert.alert('Error', 'Por favor, ingresa el título y número de la canción.');
       return;
     }
 
     setUploading(true);
-    const auth = getAuth();
-    const user = auth.currentUser;
-
-    if (!user) {
-      Alert.alert('Error', 'Debes estar autenticado para subir una publicación.');
-      setUploading(false);
-      return;
-    }
 
     try {
       let imageUrl = null;
+
+      // Subir imagen a Firebase Storage
       if (image) {
         const response = await fetch(image);
         const blob = await response.blob();
         const storage = getStorage();
-        const storageRef = ref(storage, `songs/${user.uid}/${Date.now()}.jpg`);
-        await uploadBytes(storageRef, blob);
-        imageUrl = await getDownloadURL(storageRef);
+        const storageRef = ref(storage, `canciones/${Date.now()}.jpg`);
+        const uploadTask = await uploadBytes(storageRef, blob);
+        imageUrl = await getDownloadURL(uploadTask.ref);  // Obtener URL de la imagen
       }
 
-      const songsCollection = collection(db, 'songs');
-      await addDoc(songsCollection, {
-        title,
-        number,
-        image: imageUrl,
-        createdAt: Timestamp.now(),
-        userId: user.uid,
+      // Subir la canción a la colección 'canciones' en Firestore
+      const cancionesCollection = collection(db, 'canciones');
+      await addDoc(cancionesCollection, {
+        title: title.trim(),
+        number: number.trim(),
+        image: imageUrl,  // Guardar URL de la imagen si existe
+        createdAt: Timestamp.now(),  // Añadir fecha de creación
       });
 
+      // Limpiar campos después de la subida
       Alert.alert('Éxito', 'Canción subida con éxito');
       setTitle('');
       setNumber('');
@@ -126,11 +141,17 @@ const UploadScreen = () => {
         <TouchableOpacity style={styles.button} onPress={handlePickImage}>
           <Text style={styles.buttonText}>Seleccionar Imagen</Text>
         </TouchableOpacity>
-        {image && <Image source={{ uri: image }} style={styles.image} />}
-        <TouchableOpacity style={styles.uploadButton} onPress={handleUploadPost} disabled={uploading}>
-          <Text style={styles.uploadButtonText}>
-            {uploading ? 'Subiendo...' : 'Subir Canción'}
-          </Text>
+        {image && <Image source={{ uri: image }} style={styles.largeImage} />}
+        <TouchableOpacity
+          style={[styles.uploadButton, uploading && styles.uploadButtonDisabled]}
+          onPress={handleUploadPost}
+          disabled={uploading}
+        >
+          {uploading ? (
+            <ActivityIndicator color="#fff" />
+          ) : (
+            <Text style={styles.uploadButtonText}>Subir Canción</Text>
+          )}
         </TouchableOpacity>
       </View>
     </TouchableWithoutFeedback>
@@ -155,9 +176,9 @@ const styles = StyleSheet.create({
     padding: 10,
     marginBottom: 16,
   },
-  image: {
+  largeImage: {
     width: '100%',
-    height: 200,
+    height: 300, // Tamaño más grande
     borderRadius: 8,
     marginVertical: 16,
   },
@@ -172,11 +193,14 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   uploadButton: {
-    backgroundColor: '#aec4db',
+    backgroundColor: '#007bff',
     padding: 12,
     borderRadius: 5,
     alignItems: 'center',
     marginTop: 16,
+  },
+  uploadButtonDisabled: {
+    backgroundColor: '#ccc',
   },
   uploadButtonText: {
     color: '#fff',
