@@ -12,9 +12,7 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
-import { getStorage, ref, uploadBytes, getDownloadURL } from 'firebase/storage';
-import { collection, addDoc, Timestamp } from 'firebase/firestore';
-import { db } from '../../config/conexionBd';  // Asegúrate de que la ruta a la configuración de Firebase esté correcta
+import { supabase } from '../../config/conexionBd';
 
 const UploadScreen = () => {
   const [title, setTitle] = useState('');
@@ -22,7 +20,6 @@ const UploadScreen = () => {
   const [image, setImage] = useState<string | null>(null);
   const [uploading, setUploading] = useState(false);
 
-  // Función para seleccionar una imagen (de la galería o cámara)
   const handlePickImage = async () => {
     Alert.alert('Seleccionar Imagen', 'Elige una opción', [
       { text: 'Tomar Foto', onPress: handleTakePhoto },
@@ -31,53 +28,43 @@ const UploadScreen = () => {
     ]);
   };
 
-  // Función para seleccionar una imagen desde la galería
   const handleSelectFromGallery = async () => {
     const permissionResult = await ImagePicker.requestMediaLibraryPermissionsAsync();
     if (!permissionResult.granted) {
-      Alert.alert(
-        'Permiso denegado',
-        'Debes otorgar permisos para acceder a la galería. Ve a configuración.'
-      );
+      Alert.alert('Permiso denegado', 'Debes otorgar permisos para acceder a la galería.');
       return;
     }
-
+  
     const result = await ImagePicker.launchImageLibraryAsync({
-      mediaTypes: ImagePicker.MediaTypeOptions.Images,
+      mediaTypes: ImagePicker.MediaTypeOptions.Images, // Cambiado aquí para usar MediaTypeOptions
       allowsEditing: true,
-      quality: 1, // Calidad máxima
+      quality: 1,
     });
-
+  
     if (!result.canceled) {
       setImage(result.assets[0].uri);
     }
   };
-
-  // Función para tomar una foto con la cámara
+  
   const handleTakePhoto = async () => {
     const permissionResult = await ImagePicker.requestCameraPermissionsAsync();
     if (!permissionResult.granted) {
-      Alert.alert(
-        'Permiso denegado',
-        'Debes otorgar permisos para usar la cámara. Ve a configuración.'
-      );
+      Alert.alert('Permiso denegado', 'Debes otorgar permisos para usar la cámara.');
       return;
     }
-
+  
     const result = await ImagePicker.launchCameraAsync({
+      mediaTypes: ImagePicker.MediaTypeOptions.Images, // Cambiado aquí para usar MediaTypeOptions
       allowsEditing: true,
-      aspect: [16, 9], // Relación de aspecto panorámica
-      quality: 1, // Calidad máxima
+      quality: 1,
     });
-
+  
     if (!result.canceled) {
       setImage(result.assets[0].uri);
     }
   };
-
-  // Función para subir la canción
+  
   const handleUploadPost = async () => {
-    // Verificar si los campos están vacíos
     if (!title.trim() || !number.trim()) {
       Alert.alert('Error', 'Por favor, ingresa el título y número de la canción.');
       return;
@@ -88,34 +75,62 @@ const UploadScreen = () => {
     try {
       let imageUrl = null;
 
-      // Subir imagen a Firebase Storage
       if (image) {
+        if (!image.startsWith('file://')) {
+          throw new Error('La URI de la imagen no es válida.');
+        }
+
         const response = await fetch(image);
         const blob = await response.blob();
-        const storage = getStorage();
-        const storageRef = ref(storage, `canciones/${Date.now()}.jpg`);
-        const uploadTask = await uploadBytes(storageRef, blob);
-        imageUrl = await getDownloadURL(uploadTask.ref);  // Obtener URL de la imagen
+
+        // Verificamos que el blob tenga contenido
+        if (!blob || blob.size === 0) {
+          throw new Error('El archivo de imagen está vacío o no es válido.');
+        }
+
+        const fileName = `img/${Date.now()}.jpg`;
+
+        const { error: uploadError } = await supabase.storage
+          .from('canciones')
+          .upload(fileName, blob, {
+            contentType: 'image/jpeg',
+          });
+
+        if (uploadError) {
+          throw new Error(`Error al subir la imagen: ${uploadError.message}`);
+        }
+
+        const { data: publicUrlData } = supabase.storage
+          .from('canciones')
+          .getPublicUrl(fileName);
+
+        if (!publicUrlData?.publicUrl) {
+          throw new Error('Error al obtener la URL pública de la imagen.');
+        }
+
+        imageUrl = publicUrlData.publicUrl;
       }
 
-      // Subir la canción a la colección 'canciones' en Firestore
-      const cancionesCollection = collection(db, 'canciones');
-      await addDoc(cancionesCollection, {
-        title: title.trim(),
-        number: number.trim(),
-        image: imageUrl,  // Guardar URL de la imagen si existe
-        createdAt: Timestamp.now(),  // Añadir fecha de creación
-      });
+      const { error: insertError } = await supabase
+        .from('canciones')
+        .insert({
+          title: title.trim(),
+          number: number.trim(),
+          image: imageUrl,
+          created_at: new Date().toISOString(),
+        });
 
-      // Limpiar campos después de la subida
-      Alert.alert('Éxito', 'Canción subida con éxito');
+      if (insertError) {
+        throw insertError;
+      }
+
+      Alert.alert('Éxito', 'Canción subida con éxito.');
       setTitle('');
       setNumber('');
       setImage(null);
-    } catch (error) {
-      console.error('Error al subir la canción:', error);
-      const errorMessage = (error as Error).message;
-      Alert.alert('Error', `Hubo un problema al subir la canción: ${errorMessage}`);
+    } catch (error: any) {
+      console.error('Error al subir la canción:', error.message);
+      Alert.alert('Error', `Hubo un problema al subir la canción: ${error.message}`);
     } finally {
       setUploading(false);
     }
@@ -127,16 +142,16 @@ const UploadScreen = () => {
         <Text style={styles.title}>Añadir Canción</Text>
         <TextInput
           style={styles.input}
-          placeholder="Título de la canción"
-          value={title}
-          onChangeText={setTitle}
-        />
-        <TextInput
-          style={styles.input}
           placeholder="Número de la canción"
           keyboardType="numeric"
           value={number}
           onChangeText={setNumber}
+        />
+        <TextInput
+          style={styles.input}
+          placeholder="Título de la canción"
+          value={title}
+          onChangeText={setTitle}
         />
         <TouchableOpacity style={styles.button} onPress={handlePickImage}>
           <Text style={styles.buttonText}>Seleccionar Imagen</Text>
@@ -178,7 +193,7 @@ const styles = StyleSheet.create({
   },
   largeImage: {
     width: '100%',
-    height: 300, // Tamaño más grande
+    height: 300,
     borderRadius: 8,
     marginVertical: 16,
   },
