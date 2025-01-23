@@ -21,7 +21,7 @@ const UploadScreen = () => {
         .from('canciones')
         .insert({
           title: title.trim(),
-          number: number.trim(),
+          numeroCancion: number.trim(),
           textoCancion: textoCancion.trim(),
           created_at: new Date().toISOString(),
         });

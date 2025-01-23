@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, TextInput, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, TouchableOpacity, TextInput, StyleSheet, FlatList, Dimensions } from 'react-native';
 import { superBase } from '../../config/conexionBd'; 
 
 const { width } = Dimensions.get('window');
@@ -8,30 +8,33 @@ const isLargeScreen = width >= 1280;
 
 const HomeScreen = () => {
   const [inputValue, setInputValue] = useState('');
+  const [canciones, setCanciones] = useState<{ id: number; title: string; textoCancion: string }[]>([]);
   const [textoCancion, setTextoCancion] = useState('');
   const [error, setError] = useState('');
 
   const buscarCancion = async () => {
     try {
-      const isNumber = !isNaN(Number(inputValue)); // Verifica si es un número
-      const numberValue = isNumber ? Number(inputValue) : null; // Convierte a número si es necesario
+      const isNumber = !isNaN(Number(inputValue));
+      const numberValue = isNumber ? Number(inputValue) : null;
 
-      // Construye la consulta según el tipo de entrada
+      // Consulta a la base de datos
       const { data, error } = await superBase
-        .from('canciones') // Nombre de la tabla
-        .select('textoCancion') // Seleccionamos solo la columna 
+        .from('canciones')
+        .select('id, title, textoCancion')
         .or(
           isNumber
-            ? `numeroCancion.eq.${numberValue}` // Si es número, busca en la columna numeroCancion
-            : `title.ilike.%${inputValue}%` // Si es texto, busca en el título
+            ? `numeroCancion.eq.${numberValue}`
+            : `title.ilike.%${inputValue}%`
         );
 
       if (error) throw error;
 
       if (data && data.length > 0) {
-        setTextoCancion(data[0].textoCancion); // Toma el texto de la primera coincidencia
+        setCanciones(data); // Guarda todas las coincidencias
+        setTextoCancion(''); // Limpia el texto de la canción seleccionada
         setError('');
       } else {
+        setCanciones([]);
         setTextoCancion('');
         setError('No se encontró la canción.');
       }
@@ -41,6 +44,11 @@ const HomeScreen = () => {
     }
   };
 
+  const seleccionarCancion = (cancion: { id: number; title: string; textoCancion: string }) => {
+    setTextoCancion(cancion.textoCancion); // Muestra el texto de la canción seleccionada
+    setCanciones([]); // Limpia la lista de opciones
+  };
+
   return (
     <View style={styles.container}>
       <TextInput
@@ -48,11 +56,26 @@ const HomeScreen = () => {
         placeholder="Escribe el título o número de la canción"
         value={inputValue}
         onChangeText={setInputValue}
-        keyboardType="default" // Cambiar a "numeric" si solo se espera números
       />
       <TouchableOpacity style={styles.butonCarga} onPress={buscarCancion}>
-        <Text style={styles.butonText}>Cargar Canción</Text>
+        <Text style={styles.butonText}>Buscar Canción</Text>
       </TouchableOpacity>
+
+      {canciones.length > 0 && (
+        <FlatList
+          data={canciones}
+          keyExtractor={(item) => item.id.toString()}
+          renderItem={({ item }) => (
+            <TouchableOpacity
+              style={styles.cancionItem}
+              onPress={() => seleccionarCancion(item)}
+            >
+              <Text style={styles.cancionTitle}>{item.title}</Text>
+            </TouchableOpacity>
+          )}
+        />
+      )}
+
       {textoCancion ? <Text style={styles.resultado}>{textoCancion}</Text> : null}
       {error ? <Text style={styles.error}>{error}</Text> : null}
     </View>
@@ -88,35 +111,26 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: 'white',
   },
-  scrollContainer: {
-    flex: 1,
+  cancionItem: {
+    padding: 15,
+    borderBottomWidth: 1,
+    borderBottomColor: '#ccc',
     width: '100%',
-    marginTop: 20,
   },
-  scrollContent: {
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+  cancionTitle: {
+    fontSize: 16,
+    color: '#000',
   },
   resultado: {
     fontSize: 16,
     color: 'black',
     textAlign: 'center',
-    marginBottom: 20,
+    marginVertical: 20,
   },
   error: {
     fontSize: 16,
     color: 'red',
     textAlign: 'center',
-  },
-  tabBar: {
-    backgroundColor: '#82A6C3',
-  },
-  header: {
-    backgroundColor: '#82A6C3',
-  },
-  headerTitle: {
-    fontWeight: 'bold',
-    fontSize: 20,
   },
 });
 
