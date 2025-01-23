@@ -8,7 +8,7 @@ const isLargeScreen = width >= 1280;
 
 const HomeScreen = () => {
   const [inputValue, setInputValue] = useState('');
-  const [canciones, setCanciones] = useState<{ id: number; title: string; textoCancion: string }[]>([]);
+  const [canciones, setCanciones] = useState<{ id: any; title: any; textoCancion: any }[]>([]);
   const [textoCancion, setTextoCancion] = useState('');
   const [error, setError] = useState('');
 
@@ -44,7 +44,7 @@ const HomeScreen = () => {
     }
   };
 
-  const seleccionarCancion = (cancion: { id: number; title: string; textoCancion: string }) => {
+  const seleccionarCancion = (cancion: { textoCancion: string }) => {
     setTextoCancion(cancion.textoCancion); // Muestra el texto de la canción seleccionada
     setCanciones([]); // Limpia la lista de opciones
   };
