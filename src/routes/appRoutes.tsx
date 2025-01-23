@@ -21,7 +21,7 @@ const AppRoutes = () => (
           return <Icon name={iconName} size={size} color={color} />;
         },
         tabBarActiveTintColor: 'white',
-        tabBarInactiveTintColor: 'gray',
+        tabBarInactiveTintColor: 'black',
         tabBarStyle: { backgroundColor: '#82A6C3' },
       })}
     >
