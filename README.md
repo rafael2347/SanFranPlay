@@ -1,6 +1,3 @@
-Aquí tienes un borrador del archivo `README.md` para **SanFranPlay**:  
-
-```markdown
 # SanFranPlay  
 
 SanFranPlay es una aplicación diseñada para mostrar los cánticos de la iglesia **San Fran** de forma accesible y organizada. Esta herramienta permite a los fieles y visitantes disfrutar de los cánticos de manera digital, fomentando la participación durante las ceremonias.  
