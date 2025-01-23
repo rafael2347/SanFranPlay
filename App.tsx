@@ -1,12 +1,11 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
-import AppRoutes from './src/routes/appRoutes'; // Solo AppRoutes maneja las rutas
+import AppRoutes from './src/routes/appRoutes'; 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* Solo incluir AppRoutes aquí, que manejará la navegación */}
-      <AppRoutes />
+     <AppRoutes/>
     </View>
   );
 }

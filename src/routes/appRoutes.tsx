@@ -1,64 +1,34 @@
 import React from 'react';
-import { StyleSheet } from 'react-native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import Icon from 'react-native-vector-icons/Ionicons';
 import HomeScreen from '../page/Home/HomeScreen';
 import UploadScreen from '../page/Upload/UploadScreen';
-import Icon from 'react-native-vector-icons/Ionicons';
 
 const Tab = createBottomTabNavigator();
 
-function MyTabs() {
-  return (
+const AppRoutes = () => (
+  <NavigationContainer>
     <Tab.Navigator
       screenOptions={({ route }) => ({
         tabBarIcon: ({ focused, color, size }) => {
-          let iconName = '';
+          let iconName: string = '';
           if (route.name === 'Inicio') {
             iconName = focused ? 'home' : 'home-outline';
           } else if (route.name === 'Añadir') {
             iconName = focused ? 'add-circle' : 'add-circle-outline';
           }
-          const iconSize = size + 5;
-          return <Icon name={iconName} size={iconSize} color={color} />;
-        },
-        tabBarLabelStyle: {
-            fontSize: 18, // Tamaño reducido para el texto
-            fontWeight: 'normal', // Peso de la fuente 
+          return <Icon name={iconName} size={size} color={color} />;
         },
         tabBarActiveTintColor: 'white',
-        tabBarInactiveTintColor: 'white',
-        tabBarStyle: styles.tabBar,
-        headerStyle: styles.header,
-        headerTintColor: 'white',
-        headerTitleStyle: styles.headerTitle,
+        tabBarInactiveTintColor: 'gray',
+        tabBarStyle: { backgroundColor: '#82A6C3' },
       })}
     >
-      <Tab.Screen name="Inicio" component={HomeScreen} options={{ title: 'Inicio' }} />
-      <Tab.Screen name="Añadir" component={UploadScreen} options={{ title: 'Añadir' }} />
+      <Tab.Screen name="Inicio" component={HomeScreen} />
+      <Tab.Screen name="Añadir" component={UploadScreen} />
     </Tab.Navigator>
-  );
-}
+  </NavigationContainer>
+);
 
-const styles = StyleSheet.create({
-  tabBar: {
-    backgroundColor: '#82A6C3',
-    fontSize: 20,
-    
-  },
-  header: {
-    backgroundColor: '#82A6C3',
-  },
-  headerTitle: {
-    fontWeight: 'bold',
-    fontSize: 20,
-  },
-});
-
-export default function AppRoutes() {
-  return (
-    <NavigationContainer>
-      <MyTabs />
-    </NavigationContainer>
-  );
-}
+export default AppRoutes;

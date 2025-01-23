@@ -1,15 +1,5 @@
 import React, { useState } from 'react';
-import {
-  View,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  Alert,
-  Keyboard,
-  TouchableWithoutFeedback,
-  StyleSheet,
-  ActivityIndicator,
-} from 'react-native';
+import {View,Text,TextInput,TouchableOpacity,Alert,Keyboard,TouchableWithoutFeedback,StyleSheet,ActivityIndicator,ScrollView} from 'react-native';
 import { superBase } from '../../config/conexionBd';
 
 const UploadScreen = () => {
@@ -54,41 +44,43 @@ const UploadScreen = () => {
 
   return (
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-      <View style={styles.container}>
-        <Text style={styles.title}>Añadir Canción</Text>
-        <TextInput
-          style={styles.input}
-          placeholder="Número de la canción"
-          keyboardType="numeric"
-          value={number}
-          onChangeText={setNumber}
-        />
-        <TextInput
-          style={styles.input}
-          placeholder="Título de la canción"
-          value={title}
-          onChangeText={setTitle}
-        />
-        <TextInput
-          style={styles.textArea}
-          placeholder="Descripción de la canción"
-          multiline
-          numberOfLines={4}
-          value={textoCancion}
-          onChangeText={settextoCancion}
-        />
-        <TouchableOpacity
-          style={[styles.uploadButton, uploading && styles.uploadButtonDisabled]}
-          onPress={handleUploadPost}
-          disabled={uploading}
-        >
-          {uploading ? (
-            <ActivityIndicator color="#fff" />
-          ) : (
-            <Text style={styles.uploadButtonText}>Subir Canción</Text>
-          )}
-        </TouchableOpacity>
-      </View>
+      <ScrollView contentContainerStyle={styles.scrollContent}>
+        <View style={styles.container}>
+          <Text style={styles.title}>Añadir Canción</Text>
+          <TextInput
+            style={styles.input}
+            placeholder="Número de la canción"
+            keyboardType="numeric"
+            value={number}
+            onChangeText={setNumber}
+          />
+          <TextInput
+            style={styles.input}
+            placeholder="Título de la canción"
+            value={title}
+            onChangeText={setTitle}
+          />
+          <TextInput
+            style={styles.textArea}
+            placeholder="Descripción de la canción"
+            multiline
+            numberOfLines={4}
+            value={textoCancion}
+            onChangeText={settextoCancion}
+          />
+          <TouchableOpacity
+            style={[styles.uploadButton, uploading && styles.uploadButtonDisabled]}
+            onPress={handleUploadPost}
+            disabled={uploading}
+          >
+            {uploading ? (
+              <ActivityIndicator color="#fff" />
+            ) : (
+              <Text style={styles.uploadButtonText}>Subir Canción</Text>
+            )}
+          </TouchableOpacity>
+        </View>
+      </ScrollView>
     </TouchableWithoutFeedback>
   );
 };
@@ -98,6 +90,9 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
     backgroundColor: '#f0f0f0',
+  },
+  scrollContent: {
+    flexGrow: 1,
   },
   title: {
     fontSize: 24,

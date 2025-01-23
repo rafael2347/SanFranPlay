@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, TextInput, StyleSheet, Dimensions } from 'react-native';
-import { superBase } from '../../config/conexionBd'; // Asegúrate de que este archivo esté configurado correctamente
+import { superBase } from '../../config/conexionBd'; 
 
 const { width } = Dimensions.get('window');
 const isTablet = width >= 768;
@@ -18,8 +18,8 @@ const HomeScreen = () => {
 
       // Construye la consulta según el tipo de entrada
       const { data, error } = await superBase
-        .from('canciones') // Nombre de tu tabla
-        .select('textoCancion') // Selecciona solo la columna que necesitas
+        .from('canciones') // Nombre de la tabla
+        .select('textoCancion') // Seleccionamos solo la columna 
         .or(
           isNumber
             ? `numeroCancion.eq.${numberValue}` // Si es número, busca en la columna numeroCancion
@@ -64,8 +64,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'flex-start',
-    paddingTop: 30,
     paddingHorizontal: 16,
+    paddingTop: 10,
   },
   input: {
     width: '100%',
@@ -75,32 +75,48 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     padding: 10,
     backgroundColor: '#fff',
-    textAlignVertical: 'center',
-    top: 70,
   },
   butonCarga: {
     backgroundColor: '#aec4db',
-    paddingVertical: 20,
+    paddingVertical: 15,
     paddingHorizontal: 20,
     borderRadius: 4,
     marginTop: 20,
   },
   butonText: {
-    fontSize: 20,
+    fontSize: 18,
     textAlign: 'center',
     color: 'white',
   },
-  resultado: {
+  scrollContainer: {
+    flex: 1,
+    width: '100%',
     marginTop: 20,
-    fontSize: 18,
+  },
+  scrollContent: {
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+  },
+  resultado: {
+    fontSize: 16,
     color: 'black',
     textAlign: 'center',
+    marginBottom: 20,
   },
   error: {
-    marginTop: 20,
     fontSize: 16,
     color: 'red',
     textAlign: 'center',
+  },
+  tabBar: {
+    backgroundColor: '#82A6C3',
+  },
+  header: {
+    backgroundColor: '#82A6C3',
+  },
+  headerTitle: {
+    fontWeight: 'bold',
+    fontSize: 20,
   },
 });
 
