@@ -1,11 +1,23 @@
 import React, { useState } from 'react';
-import {View,Text,TextInput,TouchableOpacity,Alert,Keyboard,TouchableWithoutFeedback,StyleSheet,ActivityIndicator,ScrollView} from 'react-native';
-import { superBase } from '../../config/conexionBd';
+import {
+  View,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  Alert,
+  Keyboard,
+  TouchableWithoutFeedback,
+  StyleSheet,
+  ActivityIndicator,
+  ScrollView
+} from 'react-native';
+import { collection, addDoc } from 'firebase/firestore';
+import { db } from '../../config/conexionBd';
 
 const UploadScreen = () => {
   const [title, setTitle] = useState('');
   const [number, setNumber] = useState('');
-  const [textoCancion, settextoCancion] = useState('');
+  const [textoCancion, setTextoCancion] = useState('');
   const [uploading, setUploading] = useState(false);
 
   const handleUploadPost = async () => {
@@ -17,26 +29,22 @@ const UploadScreen = () => {
     setUploading(true);
 
     try {
-      const { error: insertError } = await superBase
-        .from('canciones')
-        .insert({
-          title: title.trim(),
-          numeroCancion: number.trim(),
-          textoCancion: textoCancion.trim(),
-          created_at: new Date().toISOString(),
-        });
+      const newCancion = {
+        title: title.trim(),
+        // Convertimos a número para que coincida con la consulta en HomeScreen
+        numeroCancion: Number(number.trim()),
+        textoCancion: textoCancion.trim(),
+        created_at: new Date().toISOString()
+      };
 
-      if (insertError) {
-        throw insertError;
-      }
-
+      await addDoc(collection(db, 'canciones'), newCancion);
 
       Alert.alert('Éxito', 'Canción subida con éxito.');
       setTitle('');
       setNumber('');
-      settextoCancion('');
+      setTextoCancion('');
     } catch (error: any) {
-      console.error('Error al subir la canción:', error.message);
+      console.error('Error al subir la canción:', error);
       Alert.alert('Error', `Hubo un problema al subir la canción: ${error.message}`);
     } finally {
       setUploading(false);
@@ -67,7 +75,7 @@ const UploadScreen = () => {
             multiline
             numberOfLines={4}
             value={textoCancion}
-            onChangeText={settextoCancion}
+            onChangeText={setTextoCancion}
           />
           <TouchableOpacity
             style={[styles.uploadButton, uploading && styles.uploadButtonDisabled]}
@@ -130,5 +138,6 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
 });
+
 
 export default UploadScreen;

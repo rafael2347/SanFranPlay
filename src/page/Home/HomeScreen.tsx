@@ -1,39 +1,42 @@
 import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, TextInput, StyleSheet, Dimensions, ScrollView } from 'react-native';
-import { superBase } from '../../config/conexionBd'; 
-import { useFonts, Poppins_400Regular, Poppins_700Bold } from '@expo-google-fonts/poppins';
+import { collection, query, where, getDocs } from 'firebase/firestore';
+import { db } from '../../config/conexionBd';
 
 const { width } = Dimensions.get('window');
 
 const HomeScreen = () => {
   const [inputValue, setInputValue] = useState('');
-  const [canciones, setCanciones] = useState<{ id: any; title: any; textoCancion: any }[]>([]);
+  const [canciones, setCanciones] = useState<{ id: string; title: string; textoCancion: string }[]>([]);
   const [tituloCancion, setTituloCancion] = useState('');
   const [textoCancion, setTextoCancion] = useState('');
   const [error, setError] = useState('');
-  const [fontsLoaded] = useFonts({
-    Poppins_400Regular,
-    Poppins_700Bold,
-  });
 
   const buscarCancion = async () => {
     try {
+      if (!inputValue.trim()) {
+        setError('Por favor, ingresa un título o número de canción.');
+        return;
+      }
+
       const isNumber = !isNaN(Number(inputValue));
-      const numberValue = isNumber ? Number(inputValue) : null;
+      const cancionesRef = collection(db, 'canciones');
+      const q = query(
+        cancionesRef,
+        isNumber
+          ? where('numeroCancion', '==', Number(inputValue))
+          : where('title', '>=', inputValue)
+      );
 
-      const { data, error } = await superBase
-        .from('canciones')
-        .select('id, title, textoCancion')
-        .or(
-          isNumber
-            ? `numeroCancion.eq.${numberValue}`
-            : `title.ilike.%${inputValue}%`
-        );
+      const querySnapshot = await getDocs(q);
+      const resultados: { id: string; title: string; textoCancion: string }[] = [];
 
-      if (error) throw error;
+      querySnapshot.forEach((doc) => {
+        resultados.push({ id: doc.id, ...doc.data() } as any);
+      });
 
-      if (data && data.length > 0) {
-        setCanciones(data);
+      if (resultados.length > 0) {
+        setCanciones(resultados);
         setTextoCancion('');
         setTituloCancion('');
         setError('');
@@ -41,6 +44,7 @@ const HomeScreen = () => {
         setCanciones([]);
         setTextoCancion('');
         setTituloCancion('');
+        setError('No se encontraron canciones.');
       }
     } catch (error) {
       console.error('Error al buscar la canción:', error);
@@ -48,7 +52,7 @@ const HomeScreen = () => {
     }
   };
 
-  const seleccionarCancion = (cancion: { title: string, textoCancion: string }) => {
+  const seleccionarCancion = (cancion: { title: string; textoCancion: string }) => {
     setTituloCancion(cancion.title);
     setTextoCancion(cancion.textoCancion);
     setCanciones([]);
@@ -86,9 +90,7 @@ const HomeScreen = () => {
             <Text style={styles.titulo}>{tituloCancion}</Text>
             <Text style={styles.resultado}>{textoCancion}</Text>
           </View>
-        ) : (
-          <Text style={styles.resultado}></Text>
-        )}
+        ) : null}
 
         {error ? <Text style={styles.error}>{error}</Text> : null}
       </View>
@@ -165,5 +167,6 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins_400Regular',
   },
 });
+
 
 export default HomeScreen;
