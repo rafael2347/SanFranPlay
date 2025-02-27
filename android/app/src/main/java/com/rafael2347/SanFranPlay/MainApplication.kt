@@ -1,4 +1,4 @@
-package com.rafael2347.SanFranPlay
+package com.rafael2347.sanfranplay
 
 import android.app.Application
 import android.content.res.Configuration

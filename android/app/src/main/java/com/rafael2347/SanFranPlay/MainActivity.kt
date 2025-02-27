@@ -1,4 +1,4 @@
-package com.rafael2347.SanFranPlay
+package com.rafael2347.sanfranplay
 
 import android.os.Build
 import android.os.Bundle

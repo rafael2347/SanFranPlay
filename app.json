@@ -8,23 +8,23 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/logoSanFranSinFondo.png",
+      "image": "./assets/logosanfransinfondo.png",
       "resizeMode": "contain",
       "backgroundColor": "#aec4db"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.rafael2347.SanFranPlay"
+      "bundleIdentifier": "com.rafael2347.sanfranplay"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logoSanFran.png",
+        "foregroundImage": "./assets/logosanfran.png",
         "backgroundColor": "#aec4db"
       },
-      "package": "com.rafael2347.SanFranPlay"
+      "package": "com.rafael2347.sanfranplay"
     },
     "web": {
-      "favicon": "./assets/logoSanFran.ico"
+      "favicon": "./assets/logosanfran.ico"
     },
     "extra": {
       "eas": {
@@ -33,6 +33,7 @@
     },
     "plugins": [
       "expo-font"
-    ]
+    ],
+    "owner": "rafael2347"
   }
 }

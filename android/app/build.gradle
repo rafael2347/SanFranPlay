@@ -88,7 +88,7 @@ android {
 
     namespace "com.sanfranplay"
     defaultConfig {
-        applicationId 'com.rafael2347.SanFranPlay'
+        applicationId 'com.rafael2347.sanfranplay'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

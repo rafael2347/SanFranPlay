@@ -32,8 +32,9 @@ const getScreenOptions = ({ route }: { route: { name: keyof TabParamList } }): B
   },
   tabBarActiveTintColor: 'white',
   tabBarInactiveTintColor: 'black',
-  tabBarStyle: { backgroundColor: '#82A6C3' },
-  headerShown: false, // Ocultar encabezado superior
+  tabBarStyle: { backgroundColor: '#82A6C3' }, // Navegación inferior
+  headerStyle: { backgroundColor: '#82A6C3' }, // Barra superior
+  headerTintColor: 'white', // Color del texto en la barra superior
 });
 
 const AppRoutes = () => (
