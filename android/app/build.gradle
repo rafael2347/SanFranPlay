@@ -86,7 +86,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.sanfranplay"
+    namespace 'com.rafael2347.sanfranplay'
     defaultConfig {
         applicationId 'com.rafael2347.sanfranplay'
         minSdkVersion rootProject.ext.minSdkVersion

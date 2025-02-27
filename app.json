@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "SanFranPlay",
-    "slug": "SanFranPlay",
+    "slug": "sanfranplay",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logoSanFran.png",
@@ -28,7 +28,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "9c7248f3-5471-4b26-9827-5afe6b7a82ef"
+        "projectId": "3eed50f2-39ea-44f2-8917-50d9273a781e"
       }
     },
     "plugins": [
