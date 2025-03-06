@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, TextInput, StyleSheet, Dimensions, ScrollView } from 'react-native';
-import { collection, query, where, getDocs } from 'firebase/firestore';
+import { collection, query, where, getDocs, orderBy, limit } from 'firebase/firestore';
 import { db } from '../../config/conexionBd';
 
 const { width } = Dimensions.get('window');
@@ -8,14 +8,44 @@ const { width } = Dimensions.get('window');
 const HomeScreen = () => {
   const [inputValue, setInputValue] = useState('');
   const [canciones, setCanciones] = useState<{ id: string; title: string; textoCancion: string }[]>([]);
+  const [cancionesIniciales, setCancionesIniciales] = useState<{ id: string; title: string; textoCancion: string }[]>([]);
   const [tituloCancion, setTituloCancion] = useState('');
   const [textoCancion, setTextoCancion] = useState('');
   const [error, setError] = useState('');
 
+  // Cargar 20 canciones al inicio
+  useEffect(() => {
+    const cargarCancionesIniciales = async () => {
+      try {
+        const cancionesRef = collection(db, 'canciones');
+        const q = query(cancionesRef, orderBy('title'), limit(20));
+
+        const querySnapshot = await getDocs(q);
+        const resultados: { id: string; title: string; textoCancion: string }[] = [];
+
+        querySnapshot.forEach((doc) => {
+          resultados.push({ id: doc.id, ...doc.data() } as any);
+        });
+
+        setCanciones(resultados);
+        setCancionesIniciales(resultados); // Guardar las canciones originales
+      } catch (error) {
+        console.error('Error al cargar canciones:', error);
+        setError('Hubo un problema al cargar las canciones.');
+      }
+    };
+
+    cargarCancionesIniciales();
+  }, []);
+
   const buscarCancion = async () => {
     try {
+      // Vaciar la canción abierta si hay una
+      setTituloCancion('');
+      setTextoCancion('');
+
       if (!inputValue.trim()) {
-        setError('Por favor, ingresa un título o número de canción.');
+        setCanciones(cancionesIniciales); // Si la búsqueda está vacía, vuelve a la lista completa
         return;
       }
 
@@ -25,7 +55,9 @@ const HomeScreen = () => {
         cancionesRef,
         isNumber
           ? where('numeroCancion', '==', Number(inputValue))
-          : where('title', '>=', inputValue)
+          : where('title', '>=', inputValue),
+        orderBy('title'),
+        limit(20)
       );
 
       const querySnapshot = await getDocs(q);
@@ -37,13 +69,13 @@ const HomeScreen = () => {
 
       if (resultados.length > 0) {
         setCanciones(resultados);
-        setTextoCancion('');
-        setTituloCancion('');
+        setTextoCancion(''); // Vaciar la letra de la canción actual
+        setTituloCancion(''); // Vaciar el título de la canción actual
         setError('');
       } else {
-        setCanciones([]);
-        setTextoCancion('');
-        setTituloCancion('');
+        setCanciones(cancionesIniciales); // Si no se encuentran resultados, restaurar la lista completa
+        setTextoCancion(''); // Vaciar la letra de la canción actual
+        setTituloCancion(''); // Vaciar el título de la canción actual
         setError('No se encontraron canciones.');
       }
     } catch (error) {
@@ -167,6 +199,5 @@ const styles = StyleSheet.create({
     fontFamily: 'Poppins_400Regular',
   },
 });
-
 
 export default HomeScreen;

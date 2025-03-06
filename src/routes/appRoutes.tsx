@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { BottomTabNavigationOptions } from '@react-navigation/bottom-tabs';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 import HomeScreen from '../page/Home/HomeScreen';
 import UploadScreen from '../page/Upload/UploadScreen';
 
@@ -16,7 +16,7 @@ const Tab = createBottomTabNavigator<TabParamList>();
 
 // Función para definir screenOptions
 const getScreenOptions = ({ route }: { route: { name: keyof TabParamList } }): BottomTabNavigationOptions => ({
-  tabBarIcon: ({ focused, color, size }) => {
+  tabBarIcon: ({ focused, color, size = 24 }) => {
     let iconName: string;
     switch (route.name) {
       case 'Inicio':
@@ -28,8 +28,9 @@ const getScreenOptions = ({ route }: { route: { name: keyof TabParamList } }): B
       default:
         iconName = 'help-circle-outline';
     }
-    return <Icon name={iconName} size={size} color={color} />;
+    return <Ionicons name={iconName} size={size} color={color || 'black'} />;
   },
+  
   tabBarActiveTintColor: 'white',
   tabBarInactiveTintColor: 'black',
   tabBarStyle: { backgroundColor: '#82A6C3' }, // Navegación inferior
