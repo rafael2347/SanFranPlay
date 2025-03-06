@@ -13,13 +13,11 @@ const HomeScreen = () => {
   const [textoCancion, setTextoCancion] = useState('');
   const [error, setError] = useState('');
 
-  // Cargar 20 canciones al inicio
   useEffect(() => {
     const cargarCancionesIniciales = async () => {
       try {
         const cancionesRef = collection(db, 'canciones');
         const q = query(cancionesRef, orderBy('title'), limit(20));
-
         const querySnapshot = await getDocs(q);
         const resultados: { id: string; title: string; textoCancion: string }[] = [];
 
@@ -28,7 +26,7 @@ const HomeScreen = () => {
         });
 
         setCanciones(resultados);
-        setCancionesIniciales(resultados); // Guardar las canciones originales
+        setCancionesIniciales(resultados);
       } catch (error) {
         console.error('Error al cargar canciones:', error);
         setError('Hubo un problema al cargar las canciones.');
@@ -38,14 +36,22 @@ const HomeScreen = () => {
     cargarCancionesIniciales();
   }, []);
 
-  const buscarCancion = async () => {
+  const buscarOCancelar = async () => {
+    if (tituloCancion) {
+      // Si hay una canción abierta, volver al estado inicial
+      setTituloCancion('');
+      setTextoCancion('');
+      setCanciones(cancionesIniciales);
+      setInputValue('');
+      return;
+    }
+
     try {
-      // Vaciar la canción abierta si hay una
       setTituloCancion('');
       setTextoCancion('');
 
       if (!inputValue.trim()) {
-        setCanciones(cancionesIniciales); // Si la búsqueda está vacía, vuelve a la lista completa
+        setCanciones(cancionesIniciales);
         return;
       }
 
@@ -69,13 +75,9 @@ const HomeScreen = () => {
 
       if (resultados.length > 0) {
         setCanciones(resultados);
-        setTextoCancion(''); // Vaciar la letra de la canción actual
-        setTituloCancion(''); // Vaciar el título de la canción actual
         setError('');
       } else {
-        setCanciones(cancionesIniciales); // Si no se encuentran resultados, restaurar la lista completa
-        setTextoCancion(''); // Vaciar la letra de la canción actual
-        setTituloCancion(''); // Vaciar el título de la canción actual
+        setCanciones(cancionesIniciales);
         setError('No se encontraron canciones.');
       }
     } catch (error) {
@@ -99,8 +101,10 @@ const HomeScreen = () => {
           value={inputValue}
           onChangeText={setInputValue}
         />
-        <TouchableOpacity style={styles.butonCarga} onPress={buscarCancion}>
-          <Text style={styles.butonText}>Buscar Canción</Text>
+        <TouchableOpacity style={styles.butonCarga} onPress={buscarOCancelar}>
+          <Text style={styles.butonText}>
+            {tituloCancion ? 'Volver a Inicio' : 'Buscar Canción'}
+          </Text>
         </TouchableOpacity>
 
         {canciones.length > 0 && (
