@@ -5993,7 +5993,90 @@ a otros la alegría,
 
 porque con Dios todo es nuevo, 
 
-nuevo nunca varía.`
+nuevo nunca varía.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Pisando el campo nevado",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{
+        "letra": "embargóme la alegría. (**)",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{      "letra":"Y es que lo nuevo te alegra ",
+        "entrada": 3.1,
+        "salida": 4.1
+    },{       "letra":"porque lo viejo se olvida. (**)",    
+        "entrada": 4.1,
+        "salida": 5.1
+    },{       "letra":"Nuevo beso a la esposa, ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"nueva tu mejor sonrisa,",
+        "entrada": 6.1,
+        "salida": 7.1
+    },{       "letra":"nuevo el cariño a tu hijo ",
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"y el quehacer de cada día.",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Cosas nuevas, vida nueva, ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"nuevo amor, alma nueva.",    
+        "entrada": 10.0,
+        "salida": 11.0
+    },{       	"letra":"Cosas nuevas, vida nueva, ",
+        	"entrada":11,
+        	"salida":12     
+    },{       	"letra":"nuevo amor, alma nueva.",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"Por ello, si cambias lo viejo ",
+        	"entrada":13,
+        	"salida":14
+    },{       	"letra":"por lo nuevo de los días. (**)",
+        	"entrada":14,
+        	"salida":15
+    },{       	"letra":"Son felices tus adentros, ",
+        	"entrada":15,
+        	"salida":16
+    },{       	"letra":"mucho más feliz tu vida.",
+        	"entrada":16,
+        	"salida":17
+    },{       	"letra":"Son felices tus adentros, ",
+        	"entrada":17,
+        	"salida":18
+    },{       	"letra":"mucho más feliz tu vida. (**)",
+        	"entrada":18,
+        	"salida":19
+    },{       	"letra":"Nuevo beso a la esposa, ",
+        	"entrada":19,   
+            "salida":20
+    },{       	"letra":"nueva tu mejor sonrisa,",  
+                "entrada":20,
+                "salida":21
+    },{       	"letra":"nuevo el cariño a tu hijo ",
+                "entrada":21,
+                "salida":22
+    },{       	"letra":"y el quehacer de cada día.",
+                "entrada":22,
+                "salida":23
+    },{       	"letra":"Nuevo tú para llevar ",
+                "entrada":23,
+                "salida":24
+    },{       	"letra":"a otros la alegría,",
+                "entrada":24,
+                "salida":25
+    },{       	"letra":"porque con Dios todo es nuevo, ",
+                "entrada":25,
+                "salida":26
+    },{       	"letra":"nuevo nunca varía.",
+                "entrada":26,
+                "salida":27
+    }
+]
     }, {
         "id": 40,
         "nombre": "Cosas pequeñas",
@@ -6065,7 +6148,115 @@ colgado de un madero como un criminal,
 
 por ti y por mí, 
 
-por ti y por mí.`
+por ti y por mí.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Destellos en la oscuridad,",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{
+        "letra": "cada pequeña semilla al amor",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{
+        "letra":"como gotas en el mar,",
+        "entrada": 3.1,
+        "salida": 4.1
+    },{       "letra":"como a un hambriento un poco de pan.",    
+        "entrada": 4.1,
+        "salida": 5.1
+    },{       "letra":"Destellos en la oscuridad,",    
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"esa chispa que puede despertar",    
+        "entrada": 6.1,
+        "salida": 7.1
+    },{       "letra":"a un pueblo sin fuerzas para luchar,",    
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"a esa esperanza que te hace soñar.",    
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"En las cosas pequeñas ",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"puedes encontrar lo grande",    
+        "entrada": 10.0,
+        "salida": 11.0
+    },{       	"letra":"no esperes a mañana para verlas.",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"Solo el corazón te hará ",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"ver lo importante:",
+        	"entrada":13,
+        	"salida":14
+    },{       	"letra":"la vida es un regalo de tu Dios,",
+        	"entrada":14,
+        	"salida":15
+    },{       	"letra":"que hay que vivir a fondo, ",
+        	"entrada":15,
+        	"salida":16
+    },{       	"letra":"que hay que entregar.",
+        	"entrada":16,
+        	"salida":17
+    },{       	"letra":"Desde el corazón solo hay amor,",
+        	"entrada":17,
+        	"salida":18
+    },{       	"letra":"desde el corazón solo hay amor.",
+        	"entrada":18,
+        	"salida":19
+    },{       	"letra":"Destellos en la oscuridad,",
+        	"entrada":19,
+        	"salida":20
+    },{       	"letra":"unas manos que ofrecen perdón,",
+        	"entrada":20,
+        	"salida":21
+    },{       	"letra":"cercanas a quien sufre más,",
+        	"entrada":21,
+        	"salida":22
+    },{       	"letra":"empujando a este mundo a cambiar.",
+        	"entrada":22,
+        	"salida":23
+    },{       	"letra":"Destellos en la oscuridad,",
+        	"entrada":23,
+        	"salida":24
+    },{       	"letra":"cada gesto de fraternidad,",
+        	"entrada":24,
+        	"salida":25
+    },{       	"letra":"miradas que alejan la soledad,",
+        	"entrada":25,
+        	"salida":26
+    },{       	"letra":"empujando a este mundo a cambiar.",
+        	"entrada":26,
+        	"salida":27
+    },{       	"letra":"Esto os servirá de señal, ",   
+        "entrada":27,   
+        "salida":28
+    },{       	"letra":"un pequeño pañal,",   
+        "entrada":28,   
+        "salida":29
+    },{       	"letra":"un niño en una cueva sin más.",   
+        "entrada":29,   
+        "salida":30
+    },{       	"letra":"Esto os servirá de señal, ",   
+        "entrada":30,   
+        "salida":31
+    },{       	"letra":"un hombre en el monte está",   
+        "entrada":31,   
+        "salida":32
+    },{       	"letra":"colgado de un madero como un criminal,",   
+        "entrada":32,   
+        "salida":33
+    },{       	"letra":"por ti y por mí, ",   
+        "entrada":33,   
+        "salida":34
+    },{       	"letra":"por ti y por mí.",   
+        "entrada":34,   
+        "salida":35
+    }
+]
     }, {
         "id": 41,
         "nombre": "Creatura habitada",
@@ -6139,7 +6330,118 @@ mi ser entero canta agradecido
 
 ante su Creador. 
 
-Tú me sondeas y me conoces...`
+Tú me sondeas y me conoces...`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Tú me sondeas y me conoces, ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{
+        "letra": "soy creatura de tus manos, ",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{
+        "letra":"Tú me sondeas y me conoces ",
+        "entrada": 3.1,
+        "salida": 4.1
+    },{       "letra":"porque habitas en mí. ",    
+        "entrada": 4.1,     
+        "salida": 5.1
+    },{       "letra":"Sabes si me siento o me pongo en pie, ",    
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"desde lejos conoces mi pensamiento, ",    
+        "entrada": 6.1,
+        "salida": 7.1
+    },{       "letra":"adviertes si camino o si descanso, ",    
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"todas mis sendas las trazaste tú. ",    
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Antes de que hable mi boca, ",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"tú acoges mi palabra, ",    
+        "entrada": 10.0,
+        "salida": 11.0
+    },{       	"letra":"me envuelves por detrás ",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"y por delante,",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"tu abrazo me sostiene.",
+        	"entrada":13,
+        	"salida":14
+    },{       	"letra":"Tú me sondeas y me conoces... ",
+        	"entrada":14,
+        	"salida":15
+    },{       	"letra":"Si subo hasta los cielos,",
+        	"entrada":15,
+        	"salida":16
+    },{       	"letra":"allí estás tú, ",
+        	"entrada":16,
+        	"salida":17
+    },{       	"letra":"si me acuesto en el abismo, ",
+        	"entrada":17,
+        	"salida":18
+    },{       	"letra":"allí te encuentro, ",
+        	"entrada":18,
+        	"salida":19
+    },{       	"letra":"aunque volara hasta el confín del mar",
+        	"entrada":19,
+        	"salida":20 
+    },{       	"letra":"al final te encontraría a ti. ",
+        	"entrada":20,
+        	"salida":21
+    },{       	"letra":"Si me escondo en la tiniebla ",
+        	"entrada":21,
+        	"salida":22
+    },{       	"letra":"tus ojos me divisan en mi noche, ",
+        	"entrada":22,
+        	"salida":23
+    },{       	"letra":"¿a dónde podré ir sin tu presencia? ",
+        	"entrada":23,
+        	"salida":24
+    },{       	"letra":"¿por qué escapar de tu mirada? ",
+        	"entrada":24,
+        	"salida":25
+    },{       	"letra":"Tú me sondeas y me conoces... ",
+        	"entrada":25,
+        	"salida":26
+    },{       	"letra":"Tus manos modelaron todo mi ser, ",
+        	"entrada":26,
+        	"salida":27
+    },{       	"letra":"me tejieron en el vientre",    
+                "entrada":27,    
+                "salida":28
+    },{       	"letra":"de mi madre, ",    
+                "entrada":28,    
+                "salida":29
+    },{       	"letra":"creaste cada parte de mi cuerpo, ",    
+                "entrada":29,    
+                "salida":30
+    },{       	"letra":"mis entrañas las formaste Tú. ",    
+                "entrada":30,    
+                "salida":31     
+    },{       	"letra":"Tu saber es desbordante ",    
+                "entrada":31,    
+                "salida":32
+    },{       	"letra":"me sobrecoge tu Misterio, ",    
+                "entrada":32,    
+                "salida":33
+    },{       	"letra":"mi ser entero canta agradecido ",    
+                "entrada":33,    
+                "salida":34
+    },{       	"letra":"ante su Creador. ",    
+                "entrada":34,    
+                "salida":35
+    },{       	"letra":"Tú me sondeas y me conoces... ",
+                "entrada":35,    
+                "salida":36 
+    }
+]
     }, {
         "id": 42,
         "nombre": "Cristo nace cada día",
@@ -6212,7 +6514,120 @@ y por mucho que queramos matarlo,
 
 nacerá día tras día, minuto a minuto
 
-en cada hombre que quiera aceptarlo.`
+en cada hombre que quiera aceptarlo.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Habrá tierra que sembrar,",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{
+        "letra": "habrá mies que recoger.",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{       "letra":"Por muchos años que pasen",
+        "entrada": 3.1,
+        "salida": 4.1
+    },{       "letra":"no cambiará nuestra fe.",    
+        "entrada": 4.1,
+        "salida": 5.1
+    },{       "letra":"La vida es de los que luchan",    
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"por su propio yo vencer.",    
+        "entrada": 6.1,
+        "salida": 7.1   
+    },{       "letra":"Habrá peces que pescar",    
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"y manos para faenar;",    
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"no importará la tormenta,",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"pues Cristo la calmará.",    
+        "entrada": 10.0,
+        "salida": 11.0
+    },{       	"letra":"Seguiremos en la lucha",   
+                "entrada":11,
+                "salida":12
+    },{       	"letra":"por un mundo de hermandad.",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"Cristo nace cada día",
+        	"entrada":13,
+        	"salida":14
+    },{       	"letra":"en la cara del obrero cansado,",
+        	"entrada":14,
+        	"salida":15
+    },{       	"letra":"en el rostro de los niños",
+        	"entrada":15,
+        	"salida":16
+    },{       	"letra":"que ríen jugando,",    
+            "entrada":16,    
+            "salida":17
+    },{       	"letra":"en cada anciano que tenemos al lado.",    
+            "entrada":17,    
+            "salida":18
+    },{       	"letra":"Cristo nace cada día,",    
+            "entrada":18,    
+            "salida":19
+    },{       	"letra":"y por mucho que queramos matarlo,",    
+            "entrada":19,    
+            "salida":20
+    },{       	"letra":"nacerá día tras día, minuto a minuto",    
+            "entrada":20,    
+            "salida":21
+    },{       	"letra":"en cada hombre que quiera aceptarlo.",    
+            "entrada":21,    
+            "salida":22 
+    },{       	"letra":"Hay mucha tierra sembrada,",    
+            "entrada":22,    
+            "salida":23
+    },{       	"letra":"el tiempo traerá su fruto,",    
+            "entrada":23,    
+            "salida":24
+    },{       	"letra":"ya vendrá quien lo recoja;",    
+            "entrada":24,    
+            "salida":25
+    },{       	"letra":"de momento, trabajemos",    
+            "entrada":25,    
+            "salida":26
+    },{       	"letra":"y si el mundo se acobarda",        
+            "entrada":26,    
+            "salida":27
+    },{       	"letra":"nosotros no callaremos.",    
+            "entrada":27,    
+            "salida":28
+    },{       	"letra":"Cristo nace cada día",    
+            "entrada":28,    
+            "salida":29     
+    },{       	"letra":"en la cara del obrero cansado,",    
+            "entrada":29,    
+            "salida":30
+    },{       	"letra":"en el rostro de los niños",    
+            "entrada":30,    
+            "salida":31
+    },{       	"letra":"que ríen jugando,",    
+            "entrada":31,    
+            "salida":32
+    },{       	"letra":"en cada anciano que tenemos al lado.",    
+            "entrada":32,    
+            "salida":33
+    },{       	"letra":"Cristo nace cada día,",    
+            "entrada":33,    
+            "salida":34
+    },{       	"letra":"y por mucho que queramos matarlo,",    
+            "entrada":34,   
+            "salida":35
+    },{       	"letra":"nacerá día tras día, minuto a minuto",    
+            "entrada":35,    
+            "salida":36
+    },{       	"letra":"en cada hombre que quiera aceptarlo.",    
+            "entrada":36,    
+            "salida":37 
+    }
+]
     }, {
         "id": 43,
         "nombre": "Cristo vive",
@@ -6290,7 +6705,126 @@ Cristo es sal
 
 de una nueva humanidad. (**)
 
-… de una nueva humanidad.`
+… de una nueva humanidad.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Vale la pena dejarse llevar,",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{
+        "letra": "vale la pena dejarse quemar,",
+        "entrada": 2.1,         
+        "salida": 3.1
+    },{       "letra":"vale la pena volver a empezar ",
+        "entrada": 3.1,
+        "salida": 4.1
+    },{       "letra":"por Cristo.",    
+        "entrada": 4.1,
+        "salida": 5.1
+    },{       "letra":"Aún queda tiempo para regalar,",    
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"aún quedan fuerzas para trabajar,",    
+        "entrada": 6.1,
+        "salida": 7.1   
+    },{       "letra":"aún queda gente hambrienta de Cristo.",    
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"No vamos solos, aún somos más,",    
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"somos miles de antorchas ",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"y un sol de verdad.",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"Arde la tierra y grita el mar",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"que Cristo vivo está.",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"Cristo, luz de los ",
+        	"entrada":13,
+        	"salida":14
+    },{       	"letra":"pueblos de la tierra.",
+        	"entrada":14,
+        	"salida":15
+    },{       	"letra":"Cristo es sal ",
+        	"entrada":15,
+        	"salida":16
+    },{       	"letra":"de una nueva humanidad. (**)",    
+            "entrada":16,    
+            "salida":17
+    },{       	"letra":"Deja los rollos que te hacen dudar,",    
+            "entrada":17,    
+            "salida":18
+    },{       	"letra":"tantas historias que te hacen pasar.",    
+            "entrada":18,    
+            "salida":19
+    },{       	"letra":"Deja los miedos y lánzate ya ",    
+            "entrada":19,    
+            "salida":20
+    },{       	"letra":"por Cristo.",    
+            "entrada":20,    
+            "salida":21
+    },{       	"letra":"No vamos solos, aún somos más,",    
+            "entrada":21,    
+            "salida":22
+    },{       	"letra":"somos miles de antorchas ",    
+            "entrada":22,    
+            "salida":23
+    },{       	"letra":"y un sol de verdad.",    
+            "entrada":23,       
+            "salida":24
+    },{       	"letra":"Arde la tierra y grita el mar",    
+            "entrada":24,    
+            "salida":25
+    },{       	"letra":"que Cristo vivo está.",    
+            "entrada":25,    
+            "salida":26
+    },{       	"letra":"Cristo, luz de los ",  
+            "entrada":26,    
+            "salida":27
+    },{       	"letra":"pueblos de la tierra.",    
+            "entrada":27,    
+            "salida":28
+    },{       	"letra":"Cristo es sal ",    
+            "entrada":28,    
+            "salida":29
+    },{       	"letra":"de una nueva humanidad. (**)",    
+            "entrada":29,    
+            "salida":30
+    },{       	"letra":"Cristo vive ",    
+            "entrada":30,           
+            "salida":31
+    },{       	"letra":"en las calles, las ciudades,",    
+            "entrada":31,    
+            "salida":32
+    },{       	"letra":"en los montes y en los valles,",    
+            "entrada":32,    
+            "salida":33
+    },{       	"letra":"en cada corazón (**)", 
+            "entrada":33,    
+            "salida":34
+    },{       	"letra":"Cristo, luz de los ",    
+            "entrada":34,    
+            "salida":35
+    },{       	"letra":"pueblos de la tierra.",    
+            "entrada":35,    
+            "salida":36
+    },{       	"letra":"Cristo es sal ",    
+            "entrada":36,    
+            "salida":37
+    },{       	"letra":"de una nueva humanidad. (**)",    
+            "entrada":37,    
+            "salida":38
+    },{       	"letra":"… de una nueva humanidad.",    
+            "entrada":38,    
+            "salida":39 
+    }
+]
     }, {
         "id": 44,
         "nombre": "Cuidemos la creación",
@@ -6346,7 +6880,92 @@ la tierra florecida
 
 la luna y las estrellas
 
-la luz que nos da el sol`
+la luz que nos da el sol`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "El aire que me alienta",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "el agua que da vida",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{       "letra":"el mundo en el que habito",
+        "entrada": 3.1,
+        "salida": 4.1
+    },{       "letra":"con todo su color.",    
+        "entrada": 4.1,
+        "salida": 5.1
+    },{       "letra":"Criaturas, continentes,",    
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"la tierra florecida",    
+        "entrada": 6.1,
+        "salida": 7.1   
+    },{       "letra":"la luna y las estrellas",    
+        "entrada": 7.1, 
+        "salida": 8.1
+    },{       "letra":"la luz que nos da el sol",    
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Son obra de tus manos,",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"son frutos de tu amor",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"que impulsan los latidos",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"de tu inmenso corazón",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"Tú nos has confiado",
+        	"entrada":13,
+        	"salida":14
+    },{       	"letra":"la armonía de la creación.",
+        	"entrada":14,
+        	"salida":15
+    },{       	"letra":"cantemos dando gracias ",
+        	"entrada":15,
+        	"salida":16
+    },{       	"letra":"por tan hermoso don",    
+            "entrada":16,    
+            "salida":17
+    },{       	"letra":"cuidémosla con mimo loado mi señor",    
+            "entrada":17,    
+            "salida":18
+    },{       	"letra":"cuidemos tu regalo",    
+            "entrada":18,    
+            "salida":19
+    },{       	"letra":"cuidemos tu creación",    
+            "entrada":19,    
+            "salida":20
+    },{       	"letra":"El aire que me alienta",    
+            "entrada":20,    
+            "salida":21
+    },{       	"letra":"el agua que da vida",    
+            "entrada":21,    
+            "salida":22
+    },{       	"letra":"el mundo en el que habito",    
+            "entrada":22,    
+            "salida":23
+    },{       	"letra":"con todo su color.",    
+            "entrada":23,    
+            "salida":24
+    },{       	"letra":"Criaturas, continentes,",    
+            "entrada":24,    
+            "salida":25
+    },{       	"letra":"la tierra florecida",    
+            "entrada":25,    
+            "salida":26
+    },{       	"letra":"la luna y las estrellas",    
+            "entrada":26,    
+            "salida":27     
+    },{       	"letra":"la luz que nos da el sol", 
+            "entrada":27,    
+            "salida":28
+    }
+]
     }, {
         "id": 45,
         "nombre": "Culpable",
@@ -6408,7 +7027,101 @@ Muero, me arriesgo a ser tentado,
 
 a que me coma la vida, 
 
-me niego a resucitar.`
+me niego a resucitar.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Lo reconozco. ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{       "letra": "A veces de mis faltas ",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{       "letra":"te hago firme culpable ",
+        "entrada": 3.1,
+        "salida": 4.1
+    },{       "letra":"para sentirme más ligero. ",    
+        "entrada": 4.1,
+        "salida": 5.1
+    },{       "letra":"Y justo en el centro del pecho, ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"clavo un puñal de olvido ",    
+        "entrada": 6.1,
+        "salida": 7.1   
+    },{       "letra":"y te odio por completo. ",    
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"Cuerpo, alma y corazón. ",    
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Quito los ojos de tu imagen, ",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"me aparto de las luces ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"y me esfuerzo en borrarte. ",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"Y busco esconderme de todo,  ",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"que te tapen las nubes,  ",
+        	"entrada":13,
+        	"salida":14
+    },{       	"letra":"que no me roce tu aire. ", 
+                "entrada":14,
+                "salida":15
+    },{       	"letra":"Y es que hay veces ",    
+                "entrada":15,    
+                "salida":16
+    },{       	"letra":"en que me vuelvo piedra, ",    
+                "entrada":16,    
+                "salida":17
+    },{       	"letra":"y que me tiro al río ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"y que no soy consciente ",    
+                "entrada":18,    
+                "salida":19
+    },{       	"letra":"que me estoy ahogando ",    
+                "entrada":19,    
+                "salida":20
+    },{       	"letra":"y luego me vuelve la cordura ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"y solo eres culpable ",    
+                "entrada":21,    
+                "salida":22
+    },{       	"letra":"de quererme tanto. ",    
+                "entrada":22,    
+                "salida":23     
+    },{       	"letra":"En ocasiones, te cambio",    
+                "entrada":23,    
+                "salida":24     
+    },{       	"letra":"por cualquier cosa",    
+                "entrada":24,    
+                "salida":25     
+    },{       	"letra":"prefiero mirar al suelo, ",    
+                "entrada":25,    
+                "salida":26     
+    },{       	"letra":"prefiero quedarme lejos de tu ser, ",    
+                "entrada":26,    
+                "salida":27     
+    },{       	"letra":"de tu bondad. ",    
+                "entrada":27,    
+                "salida":28     
+    },{       	"letra":"Muero, me arriesgo a ser tentado, ",    
+                "entrada":28,    
+                "salida":29     
+    },{       	"letra":"a que me coma la vida, ",    
+                "entrada":29,    
+                "salida":30     
+    },{       	"letra":"me niego a resucitar. ",    
+                "entrada":30,           
+                "salida":31 
+    }
+]
     }, {
         "id": 46,
         "nombre": "Dame agua viva",
@@ -6416,7 +7129,20 @@ me niego a resucitar.`
 
 Dame agua viva 
 
-No quiero tener más sed (**)`
+No quiero tener más sed (**)`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Dame agua viva ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "Dame agua viva ",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{       "letra":"No quiero tener más sed (**)",
+        "entrada": 3.1,
+        "salida": 4.1   
+    }
+]
     }, {
         "id": 47,
         "nombre": "Dame de beber",
@@ -6448,7 +7174,56 @@ Agua que nace de risas,
 
 de manos sencillas,  
 
-de vino y de pan. `
+de vino y de pan. `,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Dame de beber ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "del agua viva,  ",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{       "letra":"del agua viva. (**)",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"De esa que dice la gente ",
+        "entrada": 4.1,
+        "salida": 5.1
+    },{       "letra":"que cuando la bebes ",    
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"no tienes más sed. ",    
+        "entrada": 6.1,
+        "salida": 7.1   
+    },{       "letra":"De esa que te abre la mente,  ",    
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"que te hace más fuerte  ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"y empuja tus pies. ",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"Agua que nace en la fuente  ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"de vidas, de gente,  ",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"de almas y paz. ", 
+                "entrada":12,
+                "salida":13
+    },{       	"letra":"Agua que nace de risas, ",    
+                "entrada":13,    
+                "salida":14
+    },{       	"letra":"de manos sencillas, ",    
+                "entrada":14,    
+                "salida":15
+    },{       	"letra":"de vino y de pan. ",    
+                "entrada":15,    
+                "salida":16
+    }
+]
     }, {
         "id": 48,
         "nombre": "Dame de tu pan",
@@ -6483,7 +7258,59 @@ dame de beber,
 
 que solo tu cuerpo y tu sangre
 
-avivan mi fe.`
+avivan mi fe.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Dame de tu pan,",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "dame de beber,",
+        "entrada": 2.1,
+        "salida": 3.1
+    },{       "letra":"que ando sediento y hambriento de ti,",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"no hay nada que sacie mi sed. ",    
+        "entrada": 4.1,
+        "salida": 5.1
+    },{       "letra":"Dame de tu pan, ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"dame de beber, ",    
+        "entrada": 6.1,
+        "salida": 7.1   
+    },{       "letra":"que solo tu cuerpo y tu sangre ",    
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"avivan mi fe. ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Dame de tu pan, ",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"dame de beber, ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"que yo aliviaré a mis hermanos ",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"con hambre y con sed. ", 
+                "entrada":12,
+                "salida":13
+    },{       	"letra":"Dame de tu pan, ",    
+                "entrada":13,    
+                "salida":14
+    },{       	"letra":"dame de beber, ",    
+                "entrada":14,    
+                "salida":15
+    },{       	"letra":"que solo tu cuerpo y tu sangre ",    
+                "entrada":15,    
+                "salida":16
+    },{       	"letra":"avivan mi fe. ",    
+                "entrada":16,    
+                "salida":17 
+    }
+]
     }, {
         "id": 49,
         "nombre": "Dame vida",
@@ -6523,7 +7350,68 @@ Enséñame tu tierra, guíame a tu tierra
 
 Dame vida, dame la Vida
 
-Dame tu Vida, ¡mi Dios! (**)`
+Dame tu Vida, ¡mi Dios! (**)`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Mi Señor, de mis enemigos líbrame",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "en Ti me refugio",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"enséñame a cumplir tu voluntad",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"porque Tú eres mi Dios, ¡mi Dios! ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"tu Espíritu que es bueno me guíe ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"por una tierra llana. ",   
+        "entrada": 6.1,
+        "salida": 7.1   
+    },{       "letra":"Dame vida, dame la Vida ",    
+        "entrada": 7.1,
+        "salida": 8.1
+    },{       "letra":"Dame tu Vida, ¡mi Dios! (**)", 
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Mi Señor, ",    
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"siente cómo me falta el aliento ",    
+        "entrada": 10.0,    
+        "salida": 11.0
+    },{       	"letra":"no escondas tu rostro, ",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"si lo alejas de mí me moriría ",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"haz que sienta en la mañana tu Amor ", 
+                "entrada":13,
+                "salida":14
+    },{       	"letra":"enséñame el camino a seguir ",    
+                "entrada":14,   
+                "salida":15
+    },{       	"letra":"a Ti levanto mi alma. ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"Enséñame tu tierra, guíame a tu tierra ",    
+                "entrada":16,    
+                "salida":17
+    },{       	"letra":"¡llévame a tu tierra, Señor!   ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"Dame vida, dame la Vida ",    
+                "entrada":18,    
+                "salida":19
+    },{       	"letra":"Dame tu Vida, ¡mi Dios! (**)",    
+                "entrada":19,    
+                "salida":20 
+    }
+]
     }, {
         "id": 50,
         "nombre": "Danos un corazón",
@@ -6569,7 +7457,77 @@ compartiendo con ellos techo y pan.
 
 Danos un corazón grande para amar
 
-Danos un corazón fuerte para luchar.`
+Danos un corazón fuerte para luchar.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Danos un corazón grande para amar",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "Danos un corazón fuerte para luchar. ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Hombres nuevos, ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"creadores de la historia, ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"constructores de nueva humanidad. ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"Hombres nuevos ",   
+        "entrada": 6.1, 
+        "salida": 7.1  
+    },{       "letra":"que viven la existencia, ",    
+        "entrada": 7.1,
+        "salida": 8.1   
+    },{       "letra":"como riesgo de un largo caminar. ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Danos un corazón grande para amar ",
+        "entrada": 9.1, 
+        "salida": 10.0
+    },{       "letra":"Danos un corazón fuerte para luchar. ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"Hombres nuevos luchando en esperanza, ",
+        	"entrada":11,   
+            "salida":12
+    },{       	"letra":"caminantes sedientos de Verdad. ",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"Hombres nuevos, sin frenos ni cadenas, ", 
+                "entrada":13,
+                "salida":14
+    },{       	"letra":"hombres libres, que exigen libertad. ",    
+                "entrada":14,    
+                "salida":15
+    },{       	"letra":"Danos un corazón grande para amar ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"Danos un corazón fuerte para luchar. ",    
+                "entrada":16,    
+                "salida":17
+    },{       	"letra":"Hombres nuevos amando sin fronteras, ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"por encima de razas y lugar. ",    
+                "entrada":18,    
+                "salida":19 
+    },{       	"letra":"Hombres nuevos al lado de los pobres, ",    
+                "entrada":19,    
+                "salida":20
+    },{       	"letra":"compartiendo con ellos techo y pan. ",    
+                "entrada":20,       
+                "salida":21
+    },{       	"letra":"Danos un corazón grande para amar ",    
+                "entrada":21,    
+                "salida":22
+    },{       	"letra":"Danos un corazón fuerte para luchar. ",    
+                "entrada":22,    
+                "salida":23 
+    }
+]
     }, {
         "id": 51,
         "nombre": "Darnos del todo",
