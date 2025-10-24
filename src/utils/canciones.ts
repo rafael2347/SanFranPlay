@@ -7587,7 +7587,98 @@ Me entrego del todo a ti, mi Dios.
 
 Me entrego a Ti, me doy a Ti,  
 
-Me entrego a Ti, Señor.`
+Me entrego a Ti, Señor.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Miro a la cruz y allí te encuentro  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "entre llagas, Señor.  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Miro en mi adentro  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"y allí te encuentro.  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"Soy tu morada, Señor.  ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"Asombrado en tu bondad,  ",   
+        "entrada": 6.1, 
+        "salida": 7.1  
+    },{       "letra":"tu pobreza y humildad,  ",    
+        "entrada": 7.1,
+        "salida": 8.1   
+    },{       "letra":"me hago espaldas de tu amor.  ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Me entrego libremente.  ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"Me doy totalmente.  ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"Me entrego a Ti, me doy a Ti,  ",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"Me entrego del todo a ti, mi Dios.  ",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"Me entrego a Ti, me doy a Ti,  ", 
+                "entrada":13,
+                "salida":14
+    },{       	"letra":"Me entrego a Ti, Señor.  ",    
+                "entrada":14,    
+                "salida":15
+    },{       	"letra":"Miro entre pucheros  ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"y allí te encuentro.  ",    
+                "entrada":16,    
+                "salida":17
+    },{       	"letra":"Tú me acompañas siempre, Señor.  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"Miro en todas partes  ",    
+                "entrada":18,    
+                "salida":19 
+    },{       	"letra":"y allí te encuentro.  ",    
+                "entrada":19,    
+                "salida":20
+    },{       	"letra":"Tú eres la fuente de mi amor;  ",    
+                "entrada":20,       
+                "salida":21     
+    },{       	"letra":"y andar en tu verdad,  ",    
+                "entrada":21,    
+                "salida":22
+    },{       	"letra":"caminar en humildad,  ",    
+                "entrada":22,   
+                "salida":23
+    },{       	"letra":"tratar de amistad contigo, Señor.  ",    
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"Me entrego libremente.  ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"Me doy totalmente.  ",    
+                "entrada":25,    
+                "salida":26 
+    },{       	"letra":"Me entrego a Ti, me doy a Ti   ",    
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"Me entrego del todo a ti, mi Dios.  ",    
+                "entrada":27,    
+                "salida":28 
+    },{       	"letra":"Me entrego a Ti, me doy a Ti,  ",    
+                "entrada":28,    
+                "salida":29 
+    },{       	"letra":"Me entrego a Ti, Señor.  ",    
+                "entrada":29,    
+                "salida":30 
+    }
+]
     }, {
         "id": 52,
         "nombre": "Déjame oir tu voz",
@@ -7599,7 +7690,26 @@ resuene en mi interior.
 
 Acalla mi alma y llénala de Ti,
 
-déjame  oír tu voz.`
+déjame  oír tu voz.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Déjame oír tu voz ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "que tu Palabra  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"resuene en mi interior. ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"Acalla mi alma y llénala de Ti, ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"déjame  oír tu voz. ",
+        "entrada": 5.1,
+        "salida": 6.1
+    }
+]
     }, {
         "id": 53,
         "nombre": "Desaprender la guerra",
@@ -7689,7 +7799,143 @@ sumarse a la alegría.
 
 Desaprender la guerra, 
 
-reinaugurar la Vida.`
+reinaugurar la Vida.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Desaprender la guerra,  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "realimentar la risa,  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"deshilachar los miedos,  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"curarse las heridas.  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"Difuminar fronteras, ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"rehuir de la codicia,  ",   
+        "entrada": 6.1, 
+        "salida": 7.1  
+    },{       "letra":"anteponer lo ajeno,  ",    
+        "entrada": 7.1,
+        "salida": 8.1   
+    },{       "letra":"negarse a las consignas.  ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"Desconvocar el odio,  ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"desestimar la ira,  ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"rehusar usar la fuerza,  ",
+        	"entrada":11,
+        	"salida":12 
+    },{       	"letra":"rodearse de caricias.  ",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"Reabrir todas las puertas,  ", 
+                "entrada":13,
+                "salida":14
+    },{       	"letra":"sitiar cada mentira,  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"pactar sin condiciones,  ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"rendirse a la Justicia.  ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"Rehabilitar los sueños,  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"penalizar las prisas,  ",    
+                "entrada":18,    
+                "salida":19 
+    },{       	"letra":"indemnizar al alma,  ",    
+                "entrada":19,       
+                "salida":20     
+    },{       	"letra":"sumarse a la alegría.  ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"Humanizar los credos,  ",    
+                "entrada":21,    
+                "salida":22
+    },{       	"letra":"purificar la brisa,  ",    
+                "entrada":22,   
+                "salida":23 
+    },{       	"letra":"adecentar la Tierra,  ",    
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"reinaugurar la Vida.  ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"Desconvocar el odio,  ",    
+                "entrada":25,    
+                "salida":26 
+    },{       	"letra":"desestimar la ira,  ",    
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"rehusar usar la fuerza,  ",    
+                "entrada":27,    
+                "salida":28 
+    },{       	"letra":"rodearse de caricias.  ",    
+                "entrada":28,    
+                "salida":29 
+    },{       	"letra":"Reabrir todas las puertas,  ",    
+                "entrada":29,   
+                "salida":30 
+    },{       	"letra":"sitiar cada mentira,  ",    
+                "entrada":30,    
+                "salida":31 
+    },{       	"letra":"pactar sin condiciones,  ",    
+                "entrada":31,    
+                "salida":32 
+    },{       	"letra":"rendirse a la Justicia.  ",    
+                "entrada":32,   
+                "salida":33 
+    },{       	"letra":"Desaprender la guerra,  ",    
+                "entrada":33,   
+                "salida":34 
+    },{       	"letra":"curarse las heridas.  ",    
+                "entrada":34,    
+                "salida":35 
+    },{       	"letra":"Desaprender la guerra,  ",    
+                "entrada":35,    
+                "salida":36 
+    },{       	"letra":"negarse a las consignas.  ",    
+                "entrada":36,    
+                "salida":37 
+    },{       	"letra":"Desaprender la guerra,  ",    
+                "entrada":37,    
+                "salida":38 
+    },{       	"letra":"rodearse de caricias.  ",    
+                "entrada":38,    
+                "salida":39 
+    },{       	"letra":"Desaprender la guerra,  ",    
+                "entrada":39,    
+                "salida":40 
+    },{       	"letra":"rendirse a la Justicia.  ",    
+                "entrada":40,    
+                "salida":41 
+    },{       	"letra":"Desaprender la guerra,  ",    
+                "entrada":41,    
+                "salida":42 
+    },{       	"letra":"sumarse a la alegría.  ",    
+                "entrada":42,    
+                "salida":43 
+    },{       	"letra":"Desaprender la guerra,  ",    
+                "entrada":43,   
+                "salida":44 
+    },{       	"letra":"reinaugurar la Vida.  ",    
+                "entrada":44,    
+                "salida":45 
+    }
+]
     }, {
         "id": 54,
         "nombre": "Desde la eternidad",
@@ -7733,7 +7979,74 @@ se expandirá por todo lo creado,
 
 gritar al mundo su unidad con Él,
 
-será también nuestro mejor regalo.`
+será también nuestro mejor regalo.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Desde la eternidad nuestro buen Dios ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "se goza en nosotros cada día; ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"piensa en los dos, es su mejor regalo, ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"es compartir su vida  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"en nuestras vidas. ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"Nuestra amistad se transformó ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"en un ave con las alas de cristal ",    
+        "entrada": 7.1, 
+        "salida": 8.1
+    },{       "letra":"un rosal en medio del jardín  ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"una ilusión, hecha realidad.  ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"La brisa que unió nuestros caminos,  ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"algo especial nos hizo descubrir; ",
+        	"entrada":11,
+        	"salida":12
+    },{       	"letra":"y el amor que hemos ido construyendo, ",
+        	"entrada":12,
+        	"salida":13
+    },{       	"letra":"me transformó en ti, y a ti en mí.  ", 
+                "entrada":13,
+                "salida":14
+    },{       	"letra":"No quiero prometer, sólo es amarte  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"la meta que propongo en mi camino;  ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"si me dejas sólo, ¿crees que es fácil  ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"construir la unidad que Dios nos hizo?  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"Su amor no se quedará en nosotros  ",    
+                "entrada":18,   
+                "salida":19 
+    },{       	"letra":"se expandirá por todo lo creado,  ",    
+                "entrada":19,       
+                "salida":20     
+    },{       	"letra":"gritar al mundo su unidad con Él,  ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"será también nuestro mejor regalo.  ",    
+                "entrada":21,    
+                "salida":22 
+    }
+]
     }, {
         "id": 55,
         "nombre": "Dime niño, de quién eres",
@@ -7760,7 +8073,47 @@ la Nochebuena se va,
 
 y nosotros nos iremos
 
-y no volveremos más.`
+y no volveremos más.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Dime, niño, de quién eres ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "todo vestido de blanco. ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Soy de la Virgen María ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"y del Espíritu Santo (**) ",    
+        "entrada": 4.1, 
+        "salida": 5.1   
+    },{       "letra":"Resuenen con alegría  ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"los cánticos de mi tierra,  ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"y viva el Hijo de Dios  ",    
+        "entrada": 7.1, 
+        "salida": 8.1
+    },{       "letra":"que nace en la Noche Buena.  ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"La Nochebuena se viene,  ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"la Nochebuena se va,  ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"y nosotros nos iremos  ",
+        	"entrada":11,       
+            "salida":12
+    },{       	"letra":"y no volveremos más.  ",
+        	"entrada":12,
+        	"salida":13 
+    }
+]
     }, {
         "id": 56,
         "nombre": "Dios está aquí",
@@ -7823,7 +8176,104 @@ tan cierto como la mañana se levanta,
 
 tan cierto como que este canto 
 
-lo puedes oír.`
+lo puedes oír.`,
+"frasesCancionConTiempo": [
+    {
+        "letra": "Dios está aquí, ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "tan cierto como el aire que respiro, ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"tan cierto como la mañana se levanta, ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"tan cierto como que este canto  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"lo puedes oír. ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"Lo puedes sentir  ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"moviéndose entre los que aman,  ",    
+        "entrada": 7.1, 
+        "salida": 8.1
+    },{       "letra":"lo puedes oír  ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"cantando con nosotros aquí,  ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"lo puedes llevar  ",   
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"cuando por esa puerta salgas,  ",
+        	"entrada":11,       
+            "salida":12
+    },{       	"letra":"lo puedes guardar  ",
+        	"entrada":12,
+        	"salida":13 
+    },{       	"letra":"muy dentro de tu corazón.  ", 
+                "entrada":13,
+                "salida":14
+    },{       	"letra":"Dios está aquí,  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"tan cierto como el aire que respiro,  ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"tan cierto como la mañana se levanta,  ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"tan cierto como que este canto  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"lo puedes oír.  ",    
+                "entrada":18,   
+                "salida":19 
+    },{       	"letra":"Lo puedes notar  ",    
+                "entrada":19,   
+                "salida":20     
+    },{       	"letra":"a tu lado en este mismo instante,  ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"no seas ya más  ",    
+                "entrada":21,    
+                "salida":22 
+    },{       	"letra":"de los que no quieren ver.  ",    
+                "entrada":22,    
+                "salida":23 
+    },{       	"letra":"Le puedes contar  ",   
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"ese problema que tienes,  ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"Jesús está aquí  ",    
+                "entrada":25,           
+                "salida":26
+    },{       	"letra":"si tu quieres, le puedes seguir.  ",    
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"Dios está aquí,  ",    
+                "entrada":27,    
+                "salida":28 
+    },{       	"letra":"tan cierto como el aire que respiro,  ",    
+                "entrada":28,           
+                "salida":29
+    },{       	"letra":"tan cierto como la mañana se levanta,  ",    
+                "entrada":29,    
+                "salida":30 
+    },{       	"letra":"tan cierto como que este canto  ",   
+                "entrada":30,    
+                "salida":31 
+    },{       	"letra":"lo puedes oír.  ",    
+                "entrada":31,    
+                "salida":32 
+    }
+]
     }, {
         "id": 57,
         "nombre": "Donde el corazón",
@@ -7921,7 +8371,155 @@ Donde el corazón busca tu raíz
 
 Donde el corazón te mueva y lleve  
 
-Donde el corazón, donde el corazón `
+Donde el corazón, donde el corazón `,
+"frasesCancionConTiempo": [
+    {        "letra": "Déjame entrar dónde estén tus sueños, ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "donde tus anhelos se ponen al sol  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Déjame estar dónde tantas veces  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"piensas que no puedes  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"(tal vez pueda yo) ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"Déjame que sea yo tu fortaleza  ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"Déjame vivir allí donde brota todo,  ",    
+        "entrada": 7.1, 
+        "salida": 8.1
+    },{       "letra":"donde nace todo, justo a la raíz.  ",
+        "entrada": 8.1, 
+        "salida": 9.1
+    },{       "letra":"Donde el corazón empezó a latir   ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"donde el corazón te espera y siente   ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"Donde el corazón busca tu raíz   ",
+        	"entrada":11,       
+            "salida":12
+    },{       	"letra":"Donde el corazón te mueva y lleve   ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"Donde el corazón, donde el corazón   ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"Déjame entrar en tus desengaños  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"para repararlos y ser tu motor   ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"Déjame estar dónde no hay remedio   ",    
+                "entrada":16,       
+                "salida":17 
+    },{       	"letra":"y donde estén tus miedos  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"encontrar valor   ",    
+                "entrada":18,   
+                "salida":19 
+    },{       	"letra":"De tu confianza brotará esperanza   ",    
+                "entrada":19,   
+                "salida":20     
+    },{       	"letra":"si te dejas ir   ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"allí donde brota todo,  ",    
+                "entrada":21,   
+                "salida":22 
+    },{       	"letra":"donde nace todo, justo a la raíz.  ",    
+                "entrada":22,    
+                "salida":23 
+    },{       	"letra":"Donde el corazón empezó a latir   ",    
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"donde el corazón te espera y siente   ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"Donde el corazón busca tu raíz   ",    
+                "entrada":25,    
+                "salida":26 
+    },{       	"letra":"Donde el corazón te mueva y lleve   ",    
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"Donde el corazón, donde el corazón   ",    
+                "entrada":27,    
+                "salida":28 
+    },{       	"letra":"Donde sientes, donde temes,   ",    
+                "entrada":28,    
+                "salida":29 
+    },{       	"letra":"donde esperas aunque   ",    
+                "entrada":29,    
+                "salida":30 
+    },{       	"letra":"muchas otras veces desesperes;   ",    
+                "entrada":30,    
+                "salida":31 
+    },{       	"letra":"donde luchas y te rindes,   ",    
+                "entrada":31,    
+                "salida":32 
+    },{       	"letra":"donde haces y deshaces,   ",   
+                "entrada":32,    
+                "salida":33 
+    },{       	"letra":"donde ganas, donde pierdes;   ",    
+                "entrada":33,    
+                "salida":34 
+    },{       	"letra":"donde sueñas, donde quieres,   ",    
+                "entrada":34,    
+                "salida":35 
+    },{       	"letra":"donde caes y te levantas  ",    
+                "entrada":35,    
+                "salida":36 
+    },{       	"letra":"aunque dudes tantas veces;   ",    
+                "entrada":36,    
+                "salida":37 
+    },{       	"letra":"donde vuelas, donde corres,   ",    
+                "entrada":37,    
+                "salida":38 
+    },{       	"letra":"donde subes, donde bajas,   ",   
+                "entrada":38,    
+                "salida":39 
+    },{       	"letra":"donde vas y donde vienes.   ",     
+                "entrada":39,    
+                "salida":40 
+    },{       	"letra":"Busca tus raíces  ",    
+                "entrada":40,    
+                "salida":41 
+    },{       	"letra":"donde el corazón te lleve...   ",    
+                "entrada":41,    
+                "salida":42 
+    },{       	"letra":"La raíz de todo   ",       
+                "entrada":42,    
+                "salida":43 
+    },{       	"letra":"donde el corazón se mueve..   ",   
+                "entrada":43,    
+                "salida":44 
+    },{       	"letra":"Donde el corazón empezó a latir   ",  
+                "entrada":44,    
+                "salida":45 
+    },{       	"letra":"donde el corazón te espera y siente   ",                   
+                "entrada":45,    
+                "salida":46 
+    },{       	"letra":"Donde el corazón busca tu raíz   ",    
+                "entrada":46,    
+                "salida":47 
+    },{       	"letra":"Donde el corazón te mueva y lleve   ",    
+                "entrada":47,    
+                "salida":48 
+    },{       	"letra":"Donde el corazón, donde el corazón   ",    
+                "entrada":48,    
+                "salida":49     
+                
+    }
+]
     }, {
         "id": 58,
         "nombre": "El amor lo cura todo",
@@ -7949,7 +8547,49 @@ el amor lo arregla todo
 
 y pa' caminar, 
 
-gasolina siempre es amar.`
+gasolina siempre es amar.`,
+"frasesCancionConTiempo": [
+    {        "letra": "No importa si dudo,   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "no importa si caigo,   ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"no importa si fallo,  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"si quiero cambiar.  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"Voy bien cuando escucho,  ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"voy bien cuando abrazo,   ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"voy bien cuando ayudo   ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"si busco amar.   ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"El amor lo cura todo,   ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"el amor perdona todo,   ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"el amor lo arregla todo   ",
+        	"entrada":11,       
+            "salida":12
+    },{       	"letra":"y pa' caminar,   ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"gasolina siempre es amar.   ", 
+                "entrada":13,
+                "salida":14 
+    }
+]
     }, {
         "id": 59,
         "nombre": "El calor de la Palabra",
@@ -8031,7 +8671,130 @@ yendo junto a Ti
 
 con tus ojos de fe
 
-nunca he de temer.`
+nunca he de temer.`,
+"frasesCancionConTiempo": [
+    {        "letra": "Cerca del hogar  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "que calienta mi alma  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"quiero yo saber lo que en comunidad  ",
+        "entrada": 3.1, 
+        "salida": 4.1  
+    },{       "letra":"Tú quieres de mí.  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"Sintiendo el calor  ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"que me da tu palabra   ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"quiero responder a lo que me pides   ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"sin que a nada yo pueda temer.   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"A nada, a nada  ",  
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"nunca he de temer  ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"yendo junto a Ti  ",
+        	"entrada":11,       
+            "salida":12
+    },{       	"letra":"con tus ojos de fe  ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"nunca he de temer.  ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"Sólo he de beber  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"de tu fuente de agua  ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"sé que sólo ella será la que sacie  ",    
+                "entrada":16,       
+                "salida":17 
+    },{       	"letra":"mi hambre y mi sed.  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"Tú eres el Señor  ",    
+                "entrada":18,   
+                "salida":19 
+    },{       	"letra":"que alimenta mi alma  ",    
+                "entrada":19,   
+                "salida":20    
+    },{       	"letra":"y si hago mi opción por seguirte a Ti  ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"nunca jamás yo temeré.  ",    
+                "entrada":21,    
+                "salida":22 
+    },{       	"letra":"A nada, a nada  ",   
+                "entrada":22,    
+                "salida":23
+    },{       	"letra":"nunca he de temer  ",  
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"yendo junto a Ti  ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"con tus ojos de fe  ",    
+                "entrada":25,   
+                "salida":26 
+    },{       	"letra":"nunca he de temer.  ",    
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"Llegan hasta mí  ",    
+                "entrada":27,    
+                "salida":28 
+    },{       	"letra":"momentos sin calma  ",    
+                "entrada":28,       
+                "salida":29 
+    },{       	"letra":"que me hacen dudar de si mi camino  ",    
+                "entrada":29,    
+                "salida":30 
+    },{       	"letra":"se orienta hacia Ti.  ",    
+                "entrada":30,    
+                "salida":31 
+    },{       	"letra":"Comienza a faltar  ",    
+                "entrada":31,    
+                "salida":32 
+    },{       	"letra":"la paz en mi alma  ",   
+                "entrada":32,   
+                "salida":33 
+    },{       	"letra":"y, sin esperarlo, apareces Tú  ",    
+                "entrada":33,    
+                "salida":34 
+    },{       	"letra":"haciéndome ver  ",    
+                "entrada":34,   
+                "salida":35 
+    },{       	"letra":"que a nada he de temer.  ",    
+                "entrada":35,    
+                "salida":36 
+    },{       	"letra":"A nada, a nada  ",    
+                "entrada":36,    
+                "salida":37 
+    },{       	"letra":"nunca he de temer  ",    
+                "entrada":37,    
+                "salida":38 
+    },{       	"letra":"yendo junto a Ti  ",    
+                "entrada":38,    
+                "salida":39 
+    },{       	"letra":"con tus ojos de fe  ",    
+                "entrada":39,    
+                "salida":40 
+    },{       	"letra":"nunca he de temer.  ",    
+                "entrada":40,   
+                "salida":41
+    }
+]
     }, {
         "id": 60,
         "nombre": "Él está aquí",
