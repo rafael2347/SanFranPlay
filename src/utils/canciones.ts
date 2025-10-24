@@ -8838,7 +8838,73 @@ que Él quiere llenarte de luz.
 
 Él está aquí, Él está aquí, 
 
-nos ha salvado. (**)`
+nos ha salvado. (**)`,
+"frasesCancionConTiempo": [
+    {        "letra": "Vamos con gozo,  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "alabemos a nuestro Señor  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Canta su nombre,  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"da Gloria a la gloria de Dios.  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"Él está aquí, donde haya dos o más,  ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"Él está aquí, Él está aquí,   ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"nos ha salvado. (**)  ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"Vive la vida  ",
+        "entrada": 8.1,
+        "salida": 9.1
+    },{       "letra":"que Cristo te viene a ofrecer,  ",
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"llena tu alma,  ",    
+        "entrada": 10.0,            
+        "salida": 11.0
+    },{       	"letra":"revive lo que hay en tu ser.  ",
+        	"entrada":11,       
+            "salida":12
+    },{       	"letra":"Él está aquí, donde haya dos o más  ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"Él está aquí, Él está aquí,  ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"nos ha salvado. (**)  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"Deja tus penas,  ",    
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"que tienes delante a Jesús,  ",    
+                "entrada":16,       
+                "salida":17 
+    },{       	"letra":"deja tus sombras  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"que Él quiere llenarte de luz.  ",    
+                "entrada":18,   
+                "salida":19 
+    },{       	"letra":"Él está aquí, donde haya dos o más  ",    
+                "entrada":19,   
+                "salida":20     
+    },{       	"letra":"Él está aquí, Él está aquí,  ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"nos ha salvado. (**)  ",    
+                "entrada":21,    
+                "salida":22 
+    }
+]
     }, {
         "id": 61,
         "nombre": "El mundo está en la cruz",
@@ -8920,7 +8986,130 @@ no muere ¡lo hemos matado!
 
 tras pisar su dignidad
 
-y su fe pisoteado.`
+y su fe pisoteado.`,
+"frasesCancionConTiempo": [
+    {        "letra": "He llegado a la montaña  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "y en la cruz te he contemplado  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"te he visto ojos de niño,  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"tu faz era de soldado.  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"Tu cuerpo sangrante y roto,  ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"tus manos viejas de anciano   ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"no he visto un Cristo de historia,   ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"vi un mundo destrozado.   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Una a una, las espinas  ",  
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"de tu cabeza he quitado  ",    
+        "entrada": 10.0,            
+        "salida": 11.0  
+    },{       	"letra":"y de tus manos sangrantes  ",
+        	"entrada":11,       
+            "salida":12
+    },{       	"letra":"arranqué los fríos clavos  ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"y al llegar hasta los pies,  ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"miedo me dio tocarlos  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"eran la sangre del pueblo  ",      
+                "entrada":15,    
+                "salida":16   
+    },{       	"letra":"pobre, guerrero y esclavo.  ",    
+                "entrada":16,       
+                "salida":17 
+    },{       	"letra":"Tu cuerpo sangrante y roto  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"sobre mí se ha descolgado  ",    
+                "entrada":18,   
+                "salida":19 
+    },{       	"letra":"los pies quedaron allí,  ",    
+                "entrada":19,   
+                "salida":20     
+    },{       	"letra":"en la cruz aún clavados.  ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"Y en tus ojitos de niño  ",    
+                "entrada":21,    
+                "salida":22 
+    },{       	"letra":"y tu cara de soldado  ",    
+                "entrada":22,   
+                "salida":23 
+    },{       	"letra":"vi la humanidad muriendo  ",    
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"¡muriendo entre mis brazos!  ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"El pueblo que sufre y muere,  ",    
+                "entrada":25,    
+                "salida":26 
+    },{       	"letra":"no muere ¡lo hemos matado! ",      
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"tras pisar su dignidad  ",    
+                "entrada":27,       
+                "salida":28 
+    },{       	"letra":"y su fe pisoteado.  ",    
+                "entrada":28,    
+                "salida":29 
+    },{       	"letra":"Y yo, en tanto, seguiré  ",    
+                "entrada":29,    
+                "salida":30 
+    },{       	"letra":"dándomelas de cristiano  ",   
+                "entrada":30,   
+                "salida":31 
+    },{       	"letra":"pensando que el mal de los hombres  ",    
+                "entrada":31,    
+                "salida":32 
+    },{       	"letra":"se lo hicieron mis contrarios.  ",    
+                "entrada":32,    
+                "salida":33 
+    },{       	"letra":"Y en tus ojitos de niño  ",    
+                "entrada":33,    
+                "salida":34 
+    },{       	"letra":"y tu cara de soldado  ",              
+                "entrada":34,    
+                "salida":35 
+    },{       	"letra":"vi la humanidad muriendo  ",    
+                "entrada":35,   
+                "salida":36 
+    },{       	"letra":"¡muriendo entre mis brazos!  ",    
+                "entrada":36,    
+                "salida":37 
+    },{       	"letra":"El pueblo que sufre y muere,       ",      
+                "entrada":37,    
+                "salida":38 
+    },{       	"letra":"no muere ¡lo hemos matado!  ",    
+                "entrada":38,    
+                "salida":39 
+    },{       	"letra":"tras pisar su dignidad  ",    
+                "entrada":39,       
+                "salida":40 
+    },{       	"letra":"y su fe pisoteado.  ",   
+                "entrada":40,   
+                "salida":41
+    }
+]
     }, {
         "id": 62,
         "nombre": "El niño Dios ha nacido en Belén",
@@ -8958,7 +9147,64 @@ para los hombres de fe y voluntad.
 
 Aleluya, aleluya, aleluya
 
-aleluya, aleluya, aleluya`
+aleluya, aleluya, aleluya`,
+"frasesCancionConTiempo": [
+    {        "letra": "El Niño Dios ha nacido en Belén,  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "¡Aleluya, aleluya!  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Quiere nacer en nosotros también,  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"¡Aleluya, aleluya!  ",    
+        "entrada": 4.1,
+        "salida": 5.1   
+    },{       "letra":"Aleluya, aleluya, aleluya  ",
+        "entrada": 5.1,
+        "salida": 6.1
+    },{       "letra":"aleluya, aleluya, aleluya   ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"Sólo los pobres y humildes le ven  ",   
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"¡Aleluya, aleluya!   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Sólo el Amor nos conduce hasta Él  ",  
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"¡Aleluya, aleluya!  ",    
+        "entrada": 10.0,            
+        "salida": 11.0  
+    },{       	"letra":"Aleluya, aleluya, aleluya  ",
+        	"entrada":11,       
+            "salida":12             
+    },{       	"letra":"aleluya, aleluya, aleluya  ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"Hay en los cielos mensajes de Paz  ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"¡Aleluya, aleluya!  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"para los hombres de fe y voluntad.  ",      
+                "entrada":15,    
+                "salida":16     
+    },{       	"letra":"¡Aleluya, aleluya!  ",    
+                "entrada":16,       
+                "salida":17 
+    },{       	"letra":"Aleluya, aleluya, aleluya  ",    
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"aleluya, aleluya, aleluya  ",    
+                "entrada":18,   
+                "salida":19     
+    }
+]
     }, {
         "id": 63,
         "nombre": "El sembrador",
@@ -8990,9 +9236,57 @@ Conviértelos, ¡oh Dios!,
 
 son frutos de tu amor,
 
-en tu cuerpo y sangre, Señor.`
+en tu cuerpo y sangre, Señor.`,
+"frasesCancionConTiempo": [
+    {        "letra": "En la tierra la sembró el sembrador  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "la semilla de tu pan, Señor,  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"y después el viñador   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"trabajó en buena lid  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"y las tierras ven crecer  ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"las espigas y la vid.   ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"El trigo se molió en el moli______no  ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"rompiendo su cuerpo como Tú.   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"La uva la pisó el hombre en el lagar  ",  
+        "entrada": 9.1, 
+        "salida": 10.0
+    },{       "letra":"igual que Tú te dejaste pisar.  ",    
+        "entrada": 10.0,            
+        "salida": 11.0  
+    },{       	"letra":"Y ahora convertido en pan y vi______no  ",
+        	"entrada":11,       
+            "salida":12             
+    },{       	"letra":"tu pueblo lo ofrece en el altar.  ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"Conviértelos, ¡oh Dios!,  ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"son frutos de tu amor,  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"en tu cuerpo y sangre, Señor.  ",    
+                "entrada":15,    
+                "salida":16     
+    }
+]
     }, {
-        "id": 65,
+        "id": 64,
         "nombre": "El Señor Dios nos amó",
         "contenido": `El Señor Dios nos amó
 
@@ -9072,9 +9366,132 @@ Pues yo soy la vida, yo soy el amor.
 
 ¡Oh Señor, condúcenos
 
-hasta tu amor!`
+hasta tu amor!`,
+"frasesCancionConTiempo": [
+    {        "letra": "El Señor Dios nos amó  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "como nadie amó jamás.  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Él nos guía como estrella  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"cuando no existe la luz.  ",   
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Él nos da todo su amor  ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"mientras la fracción del pan.   ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"Es el pan de la amistad,  ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"el pan de Dios.   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Es mi cuerpo, tomad y comed.  ",  
+        "entrada": 9.1,
+        "salida": 10.0
+    },{       "letra":"Esta es mi sangre,  ",    
+        "entrada": 10.0,            
+        "salida": 11.0  
+    },{       	"letra":"tomad y bebed.  ",
+        	"entrada":11,       
+            "salida":12             
+    },{       	"letra":"Pues yo soy la vida, yo soy el amor.  ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"¡Oh Señor, condúcenos  ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"hasta tu amor!  ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"El Señor Dios nos amó  ",  
+                "entrada":15,   
+                "salida":16     
+    },{       	"letra":"como nadie nos amó jamás.  ",    
+                "entrada":16,       
+                "salida":17 
+    },{       	"letra":"Sus paisanos le creían  ",   
+                "entrada":17,    
+                "salida":18
+    },{       	"letra":"hijo de un trabajador.  ",   
+                "entrada":18,   
+                "salida":19     
+    },{       	"letra":"Como todos. Él también  ",    
+                "entrada":19,       
+                "salida":20     
+    },{       	"letra":"ganó el pan con su sabor.  ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"y conoce la fatiga y el dolor.  ",    
+                "entrada":21,   
+                "salida":22 
+    },{       	"letra":"Es mi cuerpo, tomad y comed.  ",    
+                "entrada":22,    
+                "salida":23 
+    },{       	"letra":"Esta es mi sangre,  ",   
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"tomad y bebed.  ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"Pues yo soy la vida, yo soy el amor.  ",    
+                "entrada":25,    
+                "salida":26 
+    },{       	"letra":"¡Oh Señor, condúcenos  ",    
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"hasta tu amor!  ",    
+                "entrada":27,       
+                "salida":28     
+    },{       	"letra":"El Señor Dios nos amó  ",    
+                "entrada":28,    
+                "salida":29 
+    },{       	"letra":"como nadie nos amó jamás.  ",    
+                "entrada":29,    
+                "salida":30 
+    },{       	"letra":"Él reúne a los hombres  ", 
+                "entrada":30,
+                "salida":31 
+    },{       	"letra":"y les da a vivir su amor.  ",  
+                "entrada":31,   
+                "salida":32    
+    },{       	"letra":"Los cristianos todos ya  ",    
+                "entrada":32,    
+                "salida":33 
+    },{       	"letra":"miembros de su Cuerpo son,  ",    
+                "entrada":33,    
+                "salida":34 
+    },{       	"letra":"nadie puede separarlos de su amor.  ",    
+                "entrada":34,   
+                "salida":35 
+    },{       	"letra":"Es mi cuerpo, tomad y comed.  ",    
+                "entrada":35,    
+                "salida":36 
+    },{       	"letra":"Esta es mi sangre,  ",   
+                "entrada":36,    
+                "salida":37 
+    },{       	"letra":"tomad y bebed.  ",    
+                "entrada":37,    
+                "salida":38 
+    },{       	"letra":"Pues yo soy la vida, yo soy el amor.  ",    
+                "entrada":38,    
+                "salida":39 
+    },{       	"letra":"¡Oh Señor, condúcenos  ",  
+                "entrada":39,    
+                "salida":40 
+    },{       	"letra":"hasta tu amor!  ",    
+                "entrada":40,   
+                "salida":41     
+    }
+]
     }, {
-        "id": 66,
+        "id": 65,
         "nombre": "El tamborilero",
         "contenido": `El camino que lleva a Belén
 
@@ -9120,9 +9537,81 @@ rom pom pom pom, rom pom pom pom.
 
 ¡Cuando Dios me vio cantando ante Él,
 
-me sonrió!`
+me sonrió!`,
+"frasesCancionConTiempo": [
+    {        "letra": "El camino que lleva a Belén  ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "baja hasta el valle   ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"que la nieve cubrió.  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"Los pastorcillos quieren ver a su Rey,  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"le traen regalos en su humilde zurrón,  ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"rom pom pom pom, rom pom pom pom.   ", 
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"¡Ha nacido en un portal de Belén  ",   
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"el Niño Dios!   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Yo quisiera poner a tus pies  ",  
+        "entrada": 9.1,
+        "salida": 10.0  
+    },{       "letra":"algún presente que te agrade, Señor,  ",    
+        "entrada": 10.0,            
+        "salida": 11.0  
+    },{       	"letra":"mas Tú ya sabes que soy pobre también  ",  
+                "entrada":11,       
+                "salida":12             
+    },{       	"letra":"y no poseo más que un viejo tambor  ",
+        	"entrada":12,       
+            "salida":13
+    },{       	"letra":"rom pom pom pom, rom pom pom pom.  ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"¡En tu honor frente al portal tocaré   ",    
+                "entrada":14,    
+                "salida":15     
+    },{       	"letra":"con mi tambor!  ",      
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"El camino que lleva a Belén  ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"yo voy marcando con mi viejo tambor,  ",   
+                "entrada":17,    
+                "salida":18 
+    },{       	"letra":"nada hay mejor   ",   
+                "entrada":18,   
+                "salida":19     
+    },{       	"letra":"que yo te pueda ofrecer,  ",    
+                "entrada":19,       
+                "salida":20     
+    },{       	"letra":"su ronco acento es un canto de amor  ",    
+                "entrada":20,    
+                "salida":21
+    },{       	"letra":"rom pom pom pom, rom pom pom pom.  ",    
+                "entrada":21,    
+                "salida":22 
+    },{       	"letra":"¡Cuando Dios me vio cantando ante Él,  ",    
+                "entrada":22,    
+                "salida":23 
+    },{       	"letra":"me sonrió!  ",    
+                "entrada":23,    
+                "salida":24     
+    }
+]
     }, {
-        "id": 67,
+        "id": 66,
         "nombre": "En Camino",
         "contenido": `Estaré en el camino 
 
@@ -9192,9 +9681,117 @@ y unamos destinos.
 
 En camino. En camino
 
-En camino`
+En camino`,
+"frasesCancionConTiempo": [
+    {        "letra": "Estaré en el camino   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "cuando cargue con las penas  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"del que a mi lado viaja   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"sin saber la verdad terrena.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Ciega va mucha gente  ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"caminando a oscuras.   ",        
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"Yo que recibí la luz   ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"la anunciaré con mi vida pura.   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Pura mi vida será  ",        
+        "entrada": 9.1,
+        "salida": 10.0  
+    },{       "letra":"si la paz me ha llenado.  ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"Paz de Dios que vive en mí   ",
+        	"entrada":11,       
+            "salida":12 
+    },{       	"letra":"si yo la he dejado.  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"Libre yo caminaré   ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"lo escabroso del camino  ",    
+                "entrada":14,    
+                "salida":15    
+    },{       	"letra":"al dar yo paz a tu vivir   ",      
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"y unamos destinos.  ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"En camino. En camino  ",    
+                "entrada":17,    
+                "salida":18 
+    },{       	"letra":"Estaré en el camino   ",    
+                "entrada":18,    
+                "salida":19     
+    },{       	"letra":"cuando cargue con las penas  ",    
+                "entrada":19,       
+                "salida":20     
+    },{       	"letra":"del que a mi lado viaja   ",    
+                "entrada":20,       
+                "salida":21     
+    },{       	"letra":"sin saber la verdad terrena.  ",    
+                "entrada":21,    
+                "salida":22 
+    },{       	"letra":"Ciega va mucha gente   ",  
+                "entrada":22,    
+                "salida":23 
+    },{       	"letra":"caminando a oscuras.  ",   
+                "entrada":23,    
+                "salida":24     
+    },{       	"letra":"Yo que recibí la luz   ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"la anunciaré con mi vida pura.  ",   
+                "entrada":25,    
+                "salida":26     
+    },{       	"letra":"Pura mi vida será  ",    
+                "entrada":26,    
+                "salida":27    
+    },{       	"letra":"si la paz me ha llenado.  ",    
+                "entrada":27,       
+                "salida":28 
+    },{       	"letra":"Paz de Dios que vive en mí   ",    
+                "entrada":28,    
+                "salida":29 
+    },{       	"letra":"si yo la he dejado.  ",    
+                "entrada":29,    
+                "salida":30     
+    },{       	"letra":"Libre yo caminaré   ",    
+                "entrada":30,    
+                "salida":31     
+    },{       	"letra":"lo escabroso del camino  ",    
+                "entrada":31,   
+                "salida":32     
+    },{       	"letra":"al dar yo paz a tu vivir   ",          
+                "entrada":32,       
+                "salida":33     
+    },{       	"letra":"y unamos destinos.  ",    
+                "entrada":33,   
+                "salida":34     
+    },{       	"letra":"En camino. En camino  ",    
+                "entrada":34,    
+                "salida":35 
+    },{       	"letra":"En camino  ",    
+                "entrada":35,    
+                "salida":36    
+    }
+]
     }, {
-        "id": 68,
+        "id": 67,
         "nombre": "En comunidad resucitamos",
         "contenido": `Cuando veo un mundo gris 
 
@@ -9310,9 +9907,186 @@ la Tierra volverá a resucitar.
 
 La la ra la...
 
-Si porque estamos solos...`
+Si porque estamos solos...`,
+"frasesCancionConTiempo": [
+    {        "letra": "Cuando veo un mundo gris   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "que se nos muere  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"y me duele con quien vivo la Palabra.   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"Si la paz tan alejada de este mundo  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"nos forzamos todos juntos en buscarla.  ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"Si entre todos escuchamos    ",   
+        "entrada": 6.1,
+        "salida": 7.1  
+    },{       "letra":"sin ser sordos  ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"el grito de dolor que el hombre lanza.   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Se abre la losa  ",        
+        "entrada": 9.1,
+        "salida": 10.0  
+    },{       "letra":"que encierra a la Humanidad.  ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"La tierra, los hombres,   ",
+        	"entrada":11,       
+            "salida":12 
+    },{       	"letra":"comienzan a resucitar.  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"Cuando vemos los trabajos que labramos   ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"y los pobres no reciben sus esfuerzos.  ",    
+                "entrada":14,    
+                "salida":15    
+    },{       	"letra":"Cuando en Dios su voluntad    ",      
+                "entrada":15,           
+                "salida":16 
+    },{       	"letra":"nos planteamos  ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"y los hombres no lo sienten    ",    
+                "entrada":17,    
+                "salida":18 
+    },{       	"letra":"en su adentro.  ",   
+                "entrada":18,    
+                "salida":19     
+    },{       	"letra":"Si aceptamos el fracaso    ",    
+                "entrada":19,       
+                "salida":20     
+    },{       	"letra":"siendo humildes  ",    
+                "entrada":20,       
+                "salida":21     
+    },{       	"letra":"por lo poco que en nosotros   ",    
+                "entrada":21,       
+                "salida":22     
+    },{       	"letra":"de Dios vieron.  ",    
+                "entrada":22,    
+                "salida":23 
+    },{       	"letra":"Se abre la losa   ",    
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"que encierra a la Humanidad.  ",    
+                "entrada":24,    
+                "salida":25     
+    },{       	"letra":"La tierra, los hombres,   ",    
+                "entrada":25,    
+                "salida":26     
+    },{       	"letra":"comienzan a resucitar.  ",    
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"Si olvidamos la palabra que aprendimos   ",    
+                "entrada":27,    
+                "salida":28     
+    },{       	"letra":"y con hambre nuevamente la leemos.  ",    
+                "entrada":28,    
+                "salida":29     
+    },{       	"letra":"Si los hombres que sabemos alejados   ",    
+                "entrada":29,    
+                "salida":30     
+    },{       	"letra":"son los nuestros,   ",    
+                "entrada":30,    
+                "salida":31     
+    },{       	"letra":"sin sentirlos nunca ajenos.  ",    
+                "entrada":31,   
+                "salida":32     
+    },{       	"letra":"Si a los hombres    ",    
+                "entrada":32,   
+                "salida":33     
+    },{       	"letra":"que la Biblia nos reúne  ",    
+                "entrada":33,   
+                "salida":34     
+    },{       	"letra":"nos hacemos todos juntos    ",    
+                "entrada":34,   
+                "salida":35 
+    },{       	"letra":"hombres nuevos.  ",    
+                "entrada":35,    
+                "salida":36     
+    },{       	"letra":"Se abre la losa   ",    
+                "entrada":36,    
+                "salida":37 
+    },{       	"letra":"que encierra a la Humanidad.  ",    
+                "entrada":37,    
+                "salida":38     
+    },{       	"letra":"La tierra, los hombres,   ",    
+                "entrada":38,    
+                "salida":39     
+    },{       	"letra":"comienzan a resucitar.  ",    
+                "entrada":39,    
+                "salida":40     
+    },{       	"letra":"Los gritos que se oigan    ",  
+                "entrada":40,       
+                "salida":41     
+    },{       	"letra":"los escucharemos  ",   
+                "entrada":41,    
+                "salida":42 
+    },{       	"letra":"las faltas que otros tengan    ",  
+                "entrada":42,    
+                "salida":43     
+    },{       	"letra":"nos dolerán,  ",    
+                "entrada":43,    
+                "salida":44     
+    },{       	"letra":"las culpas que nos carguen    ",    
+                "entrada":44,    
+                "salida":45     
+    },{       	"letra":"las aceptaremos  ",    
+                "entrada":45,    
+                "salida":46     
+    },{       	"letra":"y en el alma la humildad    ",    
+                "entrada":46,    
+                "salida":47     
+    },{       	"letra":"siempre estará.  ",    
+                "entrada":47,   
+                "salida":48     
+    },{       	"letra":"Luz de Dios a las sombras le pondremos   ",    
+                "entrada":48,   
+                "salida":49     
+    },{       	"letra":"viviremos juntos como la sal.  ",    
+                "entrada":49,    
+                "salida":50     
+    },{       	"letra":"Cuando esto lo vivamos todo nuestro,   ",    
+                "entrada":50,    
+                "salida":51     
+    },{       	"letra":"la tierra volverá a resucitar.  ",    
+                "entrada":51,    
+                "salida":52     
+    },{       	"letra":"Si porque estamos solos    ",    
+                "entrada":52,    
+                "salida":53 
+    },{       	"letra":"nos sentimos muertos  ",    
+                "entrada":53,    
+                "salida":54     
+    },{       	"letra":"buscamos todos juntos la Comunidad   ",    
+                "entrada":54,       
+                "salida":55     
+    },{       	"letra":"entonces viviremos el Padre Nuestro   ",    
+                "entrada":55,    
+                "salida":56     
+    },{       	"letra":"la Tierra volverá a resucitar.  ",    
+                "entrada":56,    
+                "salida":57     
+    },{       	"letra":"La la ra la...  ",    
+                "entrada":57,    
+                "salida":58     
+    },{       	"letra":"Si porque estamos solos...  ",    
+                "entrada":58,    
+                "salida":59     
+    }
+]
     }, {
-        "id": 69,
+        "id": 68,
         "nombre": "En el alma del cantor",
         "contenido": `No quiero cantar a Dios  
 
@@ -9362,9 +10136,87 @@ lo que canto,
   
 lo que siento, mejor callar,
 
-mejor morir. `
+mejor morir. `,
+"frasesCancionConTiempo": [
+    {        "letra": "No quiero cantar a Dios   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "si no hay brillo de Dios en mí.  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Para cantar sin vivir   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"mejor que calle.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"La fuerza de la voz y la Palabra   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"está en la exigencia de hacerlo vida.   ",        
+        "entrada": 6.1,     
+        "salida": 7.1  
+    },{       "letra":"No hay canto de Dios    ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"más fuerte y sereno  ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"que el nacido en el alma del cantor.   ",    
+        "entrada": 9.1,     
+        "salida": 10.0  
+    },{       "letra":"Si no vivo lo que pienso   ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"¿para qué pensar?  ",
+        	"entrada":11,       
+            "salida":12 
+    },{       	"letra":"Si no vivo lo que escribo   ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"¿para qué escribir?  ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"Si no vivo lo que canto   ",    
+                "entrada":14,    
+                "salida":15    
+    },{       	"letra":"¿para qué cantar?   ",         
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"Si no vivo lo que siento   ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"¿para qué sentir?  ",   
+                "entrada":17,    
+                "salida":18     
+    },{       	"letra":"Si no vivo lo que escribo,   ",    
+                "entrada":18,    
+                "salida":19     
+    },{       	"letra":"lo que canto,   ",    
+                "entrada":19,       
+                "salida":20     
+    },{       	"letra":"lo que siento, mejor callar,   ",    
+                "entrada":20,       
+                "salida":21     
+    },{       	"letra":"mejor morir.  ",   
+                "entrada":21,    
+                "salida":22 
+    },{       	"letra":"Si no vivo lo que escribo,   ",    
+                "entrada":22,    
+                "salida":23     
+    },{       	"letra":"lo que canto,   ",    
+                "entrada":23,    
+                "salida":24     
+    },{       	"letra":"lo que siento, mejor callar,   ",  
+                "entrada":24,    
+                "salida":25    
+    },{       	"letra":"mejor morir.   ",    
+                "entrada":25,    
+                "salida":26         
+    }
+]
     }, {
-        "id": 70,
+        "id": 69,
         "nombre": "En el Nombre del Padre",
         "contenido": `En el nombre del Padre,  
 
@@ -9384,9 +10236,42 @@ y el Espíritu Santo
 
 que viene a ayudarnos,
 
-haciendo que vivamos en paz (**)`
+haciendo que vivamos en paz (**)`,
+"frasesCancionConTiempo": [
+    {        "letra": "En el nombre del Padre,   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "en el nombre del Hijo,  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"y en el nombre del Espíritu Santo   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"nos saludamos los hijos de Dios.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Y el Padre es    ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"el que pensó en crearnos,   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"y el Hijo nos enseña como amar,   ",    
+        "entrada": 7.1,
+        "salida": 8.1   
+    },{       "letra":"y el Espíritu Santo    ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"que viene a ayudarnos,   ",  
+        "entrada": 9.1,     
+        "salida": 10.0  
+    },{       "letra":"haciendo que vivamos en paz (**)   ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    }
+]
     }, {
-        "id": 71,
+        "id": 70,
         "nombre": "En Espíritu y en verdad",
         "contenido": `Yo me denuncio ante ustedes 
 
@@ -9461,7 +10346,7 @@ En espíritu y en verdad,
 
 en espíritu y en verdad.`
     }, {
-        "id": 72,
+        "id": 71,
         "nombre": "En tus manos",
         "contenido": `Te aferraste a mi existencia  
 
