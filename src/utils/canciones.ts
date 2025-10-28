@@ -9490,8 +9490,157 @@ hasta tu amor!`,
                 "salida":41     
     }
 ]
-    }, {
+    },  {
         "id": 65,
+        "nombre": "El Señor es mi Pastor",
+        "contenido": `El Señor es mi pastor nada me falta,
+ 
+el Señor es mi pastor.
+   
+El Señor es mi pastor nada me falta,
+ 
+el Señor es mi pastor.
+
+     
+En praderas reposa mi alma,
+    
+en su agua descansa mi sed.
+      
+Él me guía por senderos justos
+    
+por amor, por amor de su nombre.
+    
+Aunque pase por valles oscuros
+
+ningún mal, ningún mal temeré
+ 
+porque sé que el Señor va conmigo
+     
+su cayado sostiene mi fe.
+
+El Señor es mi pastor nada me falta,
+ 
+el Señor es mi pastor.
+  
+El Señor es mi pastor nada me falta,
+
+el Señor es mi pastor.
+
+   
+Tú preparas por mí una mesa
+
+frente a aquellos que buscan mi mal.
+ 
+Con aceite me ungiste, Señor,
+
+y mi copa rebosa de Ti.
+     
+Gloria a Dios, Padre omnipotente
+  
+y a su hijo Jesús, el Señor,
+
+y al Espíritu que habita en el mundo
+       
+por los siglos eternos. Amén.
+
+   
+El Señor es mi pastor nada me falta,
+  
+el Señor es mi pastor.
+
+El Señor es mi pastor nada me falta,
+
+el Señor es mi pastor.`,
+"frasesCancionConTiempo": [
+    {        "letra": "El Señor es mi pastor nada me falta,  ",
+        "entrada": 1.1,
+        "salida": 2.1   
+    },{        "letra": "el Señor es mi pastor.   ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"El Señor es mi pastor nada me falta,  ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"el Señor es mi pastor.   ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"En praderas reposa mi alma,  ",
+        "entrada": 5.1, 
+        "salida": 6.1
+    },{       "letra":"en su agua descansa mi sed.   ", 
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"Él me guía por senderos justos  ",    
+        "entrada": 7.1, 
+        "salida": 8.1   
+    },{       "letra":"por amor, por amor de su nombre.   ",
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Aunque pase por valles oscuros  ",  
+        "entrada": 9.1,
+        "salida": 10.0  
+    },{       "letra":"ningún mal, ningún mal temeré  ",    
+        "entrada": 10.0,            
+        "salida": 11.0  
+    },{       	"letra":"porque sé que el Señor va conmigo  ",
+        	"entrada":11,   
+            "salida":12
+    },{       	"letra":"su cayado sostiene mi fe.  ",
+        	"entrada":12,       
+            "salida":13 
+    },{       	"letra":"El Señor es mi pastor nada me falta,  ", 
+                "entrada":13,   
+                "salida":14
+    },{       	"letra":"el Señor es mi pastor.  ",    
+                "entrada":14,    
+                "salida":15
+    },{       	"letra":"El Señor es mi pastor nada me falta,  ",  
+                "entrada":15,   
+                "salida":16     
+    },{       	"letra":"el Señor es mi pastor.  ",    
+                "entrada":16,       
+                "salida":17     
+    },{       	"letra":"Tú preparas por mí una mesa  ",    
+                "entrada":17,    
+                "salida":18 
+    },{       	"letra":"frente a aquellos que buscan mi mal.  ",    
+                "entrada":18,   
+                "salida":19         
+    },{       	"letra":"Con aceite me ungiste, Señor,  ",    
+                "entrada":19,       
+                "salida":20         
+    },{       	"letra":"y mi copa rebosa de Ti.  ",    
+                "entrada":20,    
+                "salida":21 
+    },{       	"letra":"Gloria a Dios, Padre omnipotente  ",    
+                "entrada":21,    
+                "salida":22 
+    },{       	"letra":"y a su hijo Jesús, el Señor,  ",    
+                "entrada":22,   
+                "salida":23     
+    },{       	"letra":"y al Espíritu que habita en el mundo  ",    
+                "entrada":23,    
+                "salida":24     
+    },{       	"letra":"por los siglos eternos. Amén.  ",    
+                "entrada":24,    
+                "salida":25 
+    },{       	"letra":"El Señor es mi pastor nada me falta,  ",    
+                "entrada":25,    
+                "salida":26     
+    },{       	"letra":"el Señor es mi pastor.  ",    
+                "entrada":26,   
+                "salida":27     
+    },{       	"letra":"El Señor es mi pastor nada me falta,  ",    
+                "entrada":27,    
+                "salida":28     
+    },{       	"letra":"el Señor es mi pastor.  ",    
+                "entrada":28,   
+                "salida":29         
+    }
+]
+    },
+     {
+        "id": 66,
         "nombre": "El tamborilero",
         "contenido": `El camino que lleva a Belén
 
@@ -9611,7 +9760,7 @@ me sonrió!`,
     }
 ]
     }, {
-        "id": 66,
+        "id": 67,
         "nombre": "En Camino",
         "contenido": `Estaré en el camino 
 
@@ -9791,7 +9940,7 @@ En camino`,
     }
 ]
     }, {
-        "id": 67,
+        "id": 68,
         "nombre": "En comunidad resucitamos",
         "contenido": `Cuando veo un mundo gris 
 
@@ -10086,7 +10235,7 @@ Si porque estamos solos...`,
     }
 ]
     }, {
-        "id": 68,
+        "id": 69,
         "nombre": "En el alma del cantor",
         "contenido": `No quiero cantar a Dios  
 
@@ -10216,7 +10365,7 @@ mejor morir. `,
     }
 ]
     }, {
-        "id": 69,
+        "id": 70,
         "nombre": "En el Nombre del Padre",
         "contenido": `En el nombre del Padre,  
 
@@ -10271,7 +10420,7 @@ haciendo que vivamos en paz (**)`,
     }
 ]
     }, {
-        "id": 70,
+        "id": 71,
         "nombre": "En Espíritu y en verdad",
         "contenido": `Yo me denuncio ante ustedes 
 
@@ -10344,9 +10493,120 @@ Yo me denuncio, yo me denuncio.
 
 En espíritu y en verdad, 
 
-en espíritu y en verdad.`
+en espíritu y en verdad.`,
+"frasesCancionConTiempo": [
+    {        "letra": "Yo me denuncio ante ustedes   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "por decir que hay que orar   ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"y no buscar ni un instante   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"y dejar los días pasar.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Yo me denuncio.   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"Yo me denuncio ante ustedes   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"por hablar de los pobres   ",    
+        "entrada": 7.1,
+        "salida": 8.1   
+    },{       "letra":"y mirarlos desde lejos   ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"sin conocer sus nombres.   ",  
+        "entrada": 9.1,     
+        "salida": 10.0  
+    },{       "letra":"Yo me denuncio, yo me denuncio   ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"En espíritu y en verdad,   ",
+        	"entrada":11,       
+            "salida":12 
+    },{       	"letra":"en espíritu y en verdad.  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"Yo me denuncio ante ustedes   ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"por anunciar el Evangelio   ",    
+                "entrada":14,    
+                "salida":15    
+    },{       	"letra":"y no atreverme siquiera   ",      
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"a tocarlo con el dedo.  ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"Yo me denuncio.   ",   
+                "entrada":17,    
+                "salida":18     
+    },{       	"letra":"Yo me denuncio ante ustedes   ",    
+                "entrada":18,    
+                "salida":19     
+    },{       	"letra":"por gritar comunidad   ",    
+                "entrada":19,       
+                "salida":20     
+    },{       	"letra":"y hacer mi propio camino   ",    
+                "entrada":20,       
+                "salida":21     
+    },{       	"letra":"sin contar con los demás.  ",   
+                "entrada":21,    
+                "salida":22 
+    },{       	"letra":"Yo me denuncio, yo me denuncio   ",    
+                "entrada":22,    
+                "salida":23     
+    },{       	"letra":"En espíritu y en verdad,   ",    
+                "entrada":23,    
+                "salida":24     
+    },{       	"letra":"en espíritu y en verdad.  ",    
+                "entrada":24,    
+                "salida":25     
+    },{       	"letra":"Yo me denuncio ante ustedes   ",   
+                "entrada":25,    
+                "salida":26     
+    },{       	"letra":"por criticar la apariencia   ",    
+                "entrada":26,    
+                "salida":27     
+    },{       	"letra":"y dedicarme a lavar   ",   
+                "entrada":27,    
+                "salida":28     
+    },{       	"letra":"la copa por fuera.  ",   
+                "entrada":28,    
+                "salida":29 
+    },{       	"letra":"Yo me denuncio.   ",    
+                "entrada":29,    
+                "salida":30     
+    },{       	"letra":"Yo me denuncio ante ustedes   ",    
+                "entrada":30,       
+                "salida":31     
+    },{       	"letra":"por cantar la libertad   ",    
+                "entrada":31,    
+                "salida":32     
+    },{       	"letra":"y quedarme a ras de tierra   ",    
+                "entrada":32,    
+                "salida":33     
+    },{       	"letra":"por vértigo a volar.  ",    
+                "entrada":33,    
+                "salida":34 
+    },{       	"letra":"Yo me denuncio, yo me denuncio.   ",    
+                "entrada":34,    
+                "salida":35     
+    },{       	"letra":"En espíritu y en verdad,   ",    
+                "entrada":35,    
+                "salida":36 
+    },{       	"letra":"en espíritu y en verdad.  ",    
+                "entrada":36,    
+                "salida":37     
+    }
+]
     }, {
-        "id": 71,
+        "id": 72,
         "nombre": "En tus manos",
         "contenido": `Te aferraste a mi existencia  
 
@@ -10398,7 +10658,88 @@ Eres todo lo que busco
 
 y desbordas mi inquietud
 
-de ser humano.`
+de ser humano.`,
+"frasesCancionConTiempo": [
+    {        "letra": "Te aferraste a mi existencia   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "sin dejarme un segundo de lado.  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Soy testigo de que entonces   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"encendiste una luz en mis sueños.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Entre nubes de ceniza    ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"el futuro está sembrado de miedos.   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"En cada paso de la vida   ",    
+        "entrada": 7.1,     
+        "salida": 8.1   
+    },{       "letra":"reconozco mi latir confiado.   ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Porque cuando sopla el viento    ",  
+        "entrada": 9.1,     
+        "salida": 10.0  
+    },{       "letra":"pongo todo lo que tengo en tus manos.    ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"Porque fallan los abrazos   ",
+        	"entrada":11,       
+            "salida":12 
+    },{       	"letra":"pongo todo lo que tengo en tus manos.  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"Cuando estoy abandonado   ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"pongo todo lo que tengo en tus manos.  ",      
+                "entrada":14,    
+                "salida":15    
+    },{       	"letra":"Si luchar es lo que quiero   ",         
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"pongo todo lo que tengo en tus manos.  ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"Es estrecho tu camino   ",   
+                "entrada":17,    
+                "salida":18     
+    },{       	"letra":"como el surco que descubre un arado.   ",    
+                "entrada":18,   
+                "salida":19     
+    },{       	"letra":"No me asustan los temblores   ",    
+                "entrada":19,
+                "salida":20 
+    },{       	"letra":"ni ruidos que reclaman mi muerte.  ",    
+                "entrada":20,       
+                "salida":21     
+    },{       	"letra":"Es más fiable tu presencia   ",        
+                "entrada":21,       
+                "salida":22     
+    },{       	"letra":"que arriesgar la vida entera   ",      
+                "entrada":22,    
+                "salida":23     
+    },{       	"letra":"a la suerte.  ",   
+                "entrada":23,    
+                "salida":24 
+    },{       	"letra":"Eres todo lo que busco   ",    
+                "entrada":24,       
+                "salida":25     
+    },{       	"letra":"y desbordas mi inquietud   ",    
+                "entrada":25,    
+                "salida":26    
+    },{       	"letra":"de ser humano.   ",        
+                "entrada":26,    
+                "salida":27     
+    }
+]
     }, {
         "id": 73,
         "nombre": "En un portal",
@@ -10424,7 +10765,46 @@ renace Belén,
 
 donde hay dolor y mal
 
-llorando está.`
+llorando está.`,
+"frasesCancionConTiempo": [
+    {        "letra": "En un portal hoy en Belén   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "al mismo Dios verás nacer.  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Hoy en Belén en un portal   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"al mismo Dios verás llorar.  ",      
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Cualquier rincón de amor   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"es cuna de Dios   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"cualquier gemir del mal   ",    
+        "entrada": 7.1,     
+        "salida": 8.1   
+    },{       "letra":"es un llorar.   ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Donde hay amor y bien   ",  
+        "entrada": 9.1, 
+        "salida": 10.0  
+    },{       "letra":"renace Belén,   ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"donde hay dolor y mal   ",
+        	"entrada":11,   
+            "salida":12 
+    },{       	"letra":"llorando está.  ",
+        	"entrada":12,       
+            "salida":13 
+    }
+]
     }, {
         "id": 74,
         "nombre": "Envíame",
@@ -10491,7 +10871,107 @@ en medio del dolor
 
 y la violencia que deshace 
 
-las sonrisas. (**)`
+las sonrisas. (**)`,
+"frasesCancionConTiempo": [
+    {        "letra": "¡Que bello es anunciar   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "sobre los montes tu palabra!  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Gritar entre las gentes   ",
+        "entrada": 3.1,     
+        "salida": 4.1   
+    },{       "letra":"que es posible tu evangelio.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Ser carta de Dios   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"que escriba cada día   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"que todos hemos de ser   ",    
+        "entrada": 7.1,     
+        "salida": 8.1   
+    },{       "letra":"tu gran familia. (**)   ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Envíame, envíame,   ",  
+        "entrada": 9.1, 
+        "salida": 10.0  
+    },{       "letra":"tu paz y tu alegría.    ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"Envíame, envíame,   ", 
+                "entrada":11,    
+                "salida":12 
+    },{       	"letra":"tu impulso y tu esperanza.  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"Que siembre tu semilla   ",    
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"en medio del dolor   ",      
+                "entrada":14,    
+                "salida":15    
+    },{       	"letra":"y la violencia que deshace   ",     
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"las sonrisas.  ",  
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"Hoy siento que mi amor   ",    
+                "entrada":17,    
+                "salida":18     
+    },{       	"letra":"no ha de quedarse sólo en mí.   ",    
+                "entrada":18,   
+                "salida":19     
+    },{       	"letra":"Siento que, de no darlo,   ",    
+                "entrada":19,       
+                "salida":20    
+    },{       	"letra":"se pudriría en mis entrañas.  ",   
+                "entrada":20,    
+                "salida":21 
+    },{       	"letra":"Hoy quiero cantar,   ",    
+                "entrada":21,       
+                "salida":22 
+    },{       	"letra":"gritar en cielo y tierra   ",      
+                "entrada":22,    
+                "salida":23    
+    },{       	"letra":"que siento en mi pobreza   ",      
+                "entrada":23,    
+                "salida":24     
+    },{       	"letra":"una gran fuerza (**)  ",    
+                "entrada":24,       
+                "salida":25     
+    },{       	"letra":"Envíame, envíame,   ",    
+                "entrada":25,       
+                "salida":26     
+    },{       	"letra":"tu paz y tu alegría.   ",  
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"Envíame, envíame,   ",    
+                "entrada":27,    
+                "salida":28     
+    },{       	"letra":"tu impulso y tu esperanza.  ",   
+                "entrada":28,    
+                "salida":29    
+
+    },{       	"letra":"Que siembre tu semilla   ",    
+                "entrada":29,       
+                "salida":30     
+    },{       	"letra":"en medio del dolor   ",    
+                "entrada":30,    
+                "salida":31 
+    },{       	"letra":"y la violencia que deshace   ",    
+                "entrada":31,    
+                "salida":32 
+    },{       	"letra":"las sonrisas. (**)   ",    
+                "entrada":32,       
+                "salida":33
+    }   
+]
     }, {
         "id": 75,
         "nombre": "Envíame",
@@ -10559,7 +11039,109 @@ Aquí estoy, Señor, envíame
 
 Aquí estoy, Señor,
 
-aquí estoy. (**)`
+aquí estoy. (**)`,
+"frasesCancionConTiempo": [
+    {        "letra": "Luz para mis sombras,   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "luz te pido yo.  ",    
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Enciende mi mirada   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"con la luz de tu amor.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Gentes que iluminen,   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"eso pides Tú,    ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"que alumbren esta tierra,   ",    
+        "entrada": 7.1,     
+        "salida": 8.1   
+    },{       "letra":"que prendan con tu luz.   ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Aquí estoy, Señor, envíame   ",  
+        "entrada": 9.1, 
+        "salida": 10.0  
+    },{       "letra":"Aquí estoy, Señor,   ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"aquí estoy. (**)   ", 
+        	"entrada":11,   
+            "salida":12 
+    },{       	"letra":"Sal para mi vida,  ",
+        	"entrada":12,    
+            "salida":13    
+    },{       	"letra":"eso pido yo,   ", 
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"que la monotonía   ",      
+                "entrada":14,    
+                "salida":15    
+    },{       	"letra":"no da ningún sabor.  ",         
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"Gentes como sal,   ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"eso pides Tú,    ",   
+                "entrada":17,    
+                "salida":18     
+    },{       	"letra":"que salen esta tierra,   ",    
+                "entrada":18,       
+                "salida":19     
+    },{       	"letra":"que sean sal y luz.  ",   
+                "entrada":19,       
+                "salida":20 
+    },{       	"letra":"Aquí estoy, Señor, envíame   ",    
+                "entrada":20,       
+                "salida":21 
+    },{       	"letra":"Aquí estoy, Señor,   ",      
+                "entrada":21,    
+                "salida":22   
+    },{       	"letra":"aquí estoy. (**)  ",   
+                "entrada":22,    
+                "salida":23 
+    },{       	"letra":"Paz para mis guerras,   ",    
+                "entrada":23,   
+                "salida":24     
+    },{       	"letra":"eso pido yo,   ",    
+                "entrada":24,       
+                "salida":25     
+    },{       	"letra":"que el odio no me venza   ",    
+                "entrada":25,    
+                "salida":26 
+    },{       	"letra":"ni me ciegue el rencor.  ",    
+                "entrada":26,   
+                "salida":27     
+    },{       	"letra":"Paz para la tierra,   ",    
+                "entrada":27,    
+                "salida":28 
+    },{       	"letra":"eso pides Tú.   ", 
+                "entrada":28,   
+                "salida":29    
+    },{       	"letra":"Que se abran las fronteras   ",    
+                "entrada":29,   
+                "salida":30    
+    },{       	"letra":"que separan norte y sur.  ",   
+                "entrada":30,    
+                "salida":31 
+    },{       	"letra":"Aquí estoy, Señor, envíame   ",    
+                "entrada":31,       
+                "salida":32     
+    },{       	"letra":"Aquí estoy, Señor,   ",    
+                "entrada":32,    
+                "salida":33 
+    },{       	"letra":"aquí estoy. (**)   ",    
+                "entrada":33,       
+                "salida":34 
+    }
+]
     }, {
         "id": 76,
         "nombre": "Envíanos tu soplo de Padre",
@@ -10591,7 +11173,55 @@ tráenos tu soplo que nos convierta,
 
 pongamos la vida en vivir tu plan,
 
-que todos sintamos tu amor y tu paz.`
+que todos sintamos tu amor y tu paz.`,
+"frasesCancionConTiempo": [
+    {        "letra": "Mándanos, Dios, tu Espíritu Santo,   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "envíanos, Dios, tu soplo de Padre,  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"que nos haga entender   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"que tu fraternidad   ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"somos toda la humanidad.   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"Padre, alúmbranos, ¡dan  os luz!   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"infunde en las almas   ",    
+        "entrada": 7.1,    
+        "salida": 8.1   
+    },{       "letra":"de los hombres tu amor   ",   
+        "entrada": 8.1, 
+        "salida": 9.1   
+    },{       "letra":"que nadie quede fuera   ",  
+        "entrada": 9.1, 
+        "salida": 10.0  
+    },{       "letra":"de nuestro corazón.    ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"¡Ven, Santo Espíritu!,   ",        
+                "entrada":11,    
+                "salida":12 
+    },{       	"letra":"renueva la Tierra,  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"tráenos tu soplo que nos convierta  ",     
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"pongamos la vida en vivir tu plan,   ",      
+                "entrada":14,    
+                "salida":15   
+    },{       	"letra":"que todos sintamos tu amor y tu paz.  ",         
+                "entrada":15,           
+                "salida":16     
+    }
+]
     }, {
         "id": 77,
         "nombre": "Eres mi debilidad",
@@ -10657,7 +11287,106 @@ oh, al amor sin condiciones
 
 y saber que eres amigo de verdad,
 
-que a pesar de todo eres mi debilidad.`
+que a pesar de todo eres mi debilidad.`,
+"frasesCancionConTiempo": [
+    {        "letra": "Tú me hiciste salir de la nada   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "encendiendo la llama apagada.  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"el deseo de darme al hermano   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"donde te siento resucitado.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Necesito tenerte muy cerca,   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"eres fuerza que nunca me deja,   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"Aunque a veces la duda me impide   ",    
+        "entrada": 7.1,     
+        "salida": 8.1   
+    },{       "letra":"realizar todo lo que me pides.   ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"El sentir de tu llamada,   ",    
+        "entrada": 9.1, 
+        "salida": 10.0  
+    },{       "letra":"el poder de tu mirada,    ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"son tus manos que me abrazan   ",        
+                "entrada":11,    
+                "salida":12 
+    },{       	"letra":"y me impulsan como el agua.  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"Es la fuerza que me lleva   ",     
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"oh, al amor sin condiciones,   ",      
+                "entrada":14,    
+                "salida":15   
+    },{       	"letra":"y saber que eres amigo de verdad,  ",         
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"que a pesar de todo eres mi debilidad.   ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"Hoy tu nombre es más que palabras   ",    
+                "entrada":17,    
+                "salida":18     
+    },{       	"letra":"es tu voz que resuena en mi alma   ",    
+                "entrada":18,       
+                "salida":19     
+    },{       	"letra":"me has mostrado un modo de vida   ",    
+                "entrada":19,       
+                "salida":20    
+    },{       	"letra":"un sendero de fe compartida.  ",   
+                "entrada":20,   
+                "salida":21 
+    },{       	"letra":"Abriremos nuevos caminos    ",    
+                "entrada":21,       
+                "salida":22 
+    },{       	"letra":"para aquellos que siguen tus huellas,   ",      
+                "entrada":22,    
+                "salida":23    
+    },{       	"letra":"y se harán realidad nuestros sueños   ",      
+                "entrada":23,    
+                "salida":24    
+    },{       	"letra":"anunciando una fe sin fronteras.  ",    
+                "entrada":24,       
+                "salida":25     
+    },{       	"letra":"El sentir de tu llamada,   ",    
+                "entrada":25,   
+                "salida":26     
+    },{       	"letra":"el poder de tu mirada,   ",    
+                "entrada":26,    
+                "salida":27 
+    },{       	"letra":"son tus manos que me abrazan   ",        
+                "entrada":27,    
+                "salida":28 
+    },{       	"letra":"y me impulsan como el agua.  ",       
+                "entrada":28,   
+                "salida":29     
+    },{       	"letra":"Es la fuerza que me lleva   ",    
+                "entrada":29,    
+                "salida":30     
+    },{       	"letra":"oh, al amor sin condiciones,   ",  
+                "entrada":30,   
+                "salida":31    
+    },{       	"letra":"y saber que eres amigo de verdad,   ",    
+                "entrada":31,       
+                "salida":32     
+    },{       	"letra":"que a pesar de todo eres mi debilidad.   ",    
+                "entrada":32,       
+                "salida":33     
+    }
+]
     }, {
         "id": 78,
         "nombre": "Es Jesús la esperanza",
@@ -10699,7 +11428,70 @@ de este mundo fatal
 
 sé testigo y despierta,
 
-esta es tu realidad.`
+esta es tu realidad.`,
+"frasesCancionConTiempo": [
+    {        "letra": "Es Jesús la esperanza    ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "que nos trae la paz  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"Es su amor infinito...   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"Jesús es la verdad.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Él me dijo:   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"\"Deja todo y tendrás libertad   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"Soy camino, agua limpia,   ",    
+        "entrada": 7.1,     
+        "salida": 8.1   
+    },{       "letra":"de este gran manantial\"   ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"Él me dijo que si amamos   ",    
+        "entrada": 9.1, 
+        "salida": 10.0  
+    },{       "letra":"ya hay felicidad   ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"si soy signo en este mundo   ",        
+                "entrada":11,    
+                "salida":12 
+    },{       	"letra":"de solidaridad.  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"Él nos guía en la pobreza   ",     
+                "entrada":13,               
+                "salida":14 
+    },{       	"letra":"compartiendo su pan   ",      
+                "entrada":14,    
+                "salida":15   
+    },{       	"letra":"sé sencillo en esta mesa   ",         
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"que Jesús llegará.   ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"Él me anima en la tristeza   ",    
+                "entrada":17,    
+                "salida":18     
+    },{       	"letra":"de este mundo fatal   ",    
+                "entrada":18,       
+                "salida":19     
+    },{       	"letra":"sé testigo y despierta,   ",    
+                "entrada":19,       
+                "salida":20    
+    },{       	"letra":"esta es tu realidad.  ",   
+                "entrada":20,   
+                "salida":21 
+    }
+]
     }, {
         "id": 79,
         "nombre": "Es tu amigo es",
@@ -10805,7 +11597,166 @@ cuanto más grande sea mejor es,
 
 oh, oh, oh, oh, oh, oh, ooh 
 
-y a cantarla somos tú y yo.`
+y a cantarla somos tú y yo.`,
+"frasesCancionConTiempo": [
+    {        "letra": "Es, tu amigo es,    ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "una persona que te quiere así,  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"tal como eres tú, así te acepta él,   ",
+        "entrada": 3.1,                     
+        "salida": 4.1   
+    },{       "letra":"y cuando habla siempre   ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"lo hace con sinceridad.   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"Pues sabe él que sabes tú   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    },{       "letra":"el gusto amargo de lo que es verdad,   ",    
+        "entrada": 7.1,     
+        "salida": 8.1   
+    },{       "letra":"pero al decírselo abre su corazón,   ",   
+        "entrada": 8.1,
+        "salida": 9.1   
+    },{       "letra":"porque es tu amigo ¡y eso basta!.   ",    
+        "entrada": 9.1, 
+        "salida": 10.0  
+    },{       "letra":"Es... tu amigo es,    ",    
+        "entrada": 10.0,        
+        "salida": 11.0  
+    },{       	"letra":"aquel que está a tu lado, es   ",        
+                "entrada":11,    
+                "salida":12 
+    },{       	"letra":"la sonrisa que contagia con su música,  ",
+        	"entrada":12,       
+            "salida":13     
+    },{       	"letra":"y a cantarla somos tú y yo.   ",     
+                "entrada":13,
+                "salida":14 
+    },{       	"letra":"Es... un coro es,   ",      
+                "entrada":14,    
+                "salida":15   
+    },{       	"letra":"cuanto más grande sea mejor es,  ",         
+                "entrada":15,           
+                "salida":16     
+    },{       	"letra":"oh, oh, oh, oh, oh,    oh, ooh   ",    
+                "entrada":16,    
+                "salida":17 
+    },{       	"letra":"y a cantarla somos tú y yo.   ",    
+                "entrada":17,    
+                "salida":18     
+    },{       	"letra":"Es, tu amigo es,   ",    
+                "entrada":18,       
+                "salida":19     
+    },{       	"letra":"lo más precioso de la compañía.   ",    
+                "entrada":19,    
+                "salida":20 
+    },{       	"letra":"y que te ayudará si necesitas de él,  ",    
+                "entrada":20,       
+                "salida":21    
+    },{       	"letra":"y muchas veces te parecerá imposible.   ",      
+                "entrada":21,    
+                "salida":22    
+    },{       	"letra":"Pero es él, tu amigo es.  ",   
+                "entrada":22,   
+                "salida":23 
+    },{       	"letra":"lo que te falta a ti para vivir.   ",    
+                "entrada":23,   
+                "salida":24    
+    },{       	"letra":"te empuja a caminar,   ",    
+                "entrada":24,    
+                "salida":25     
+    },{       	"letra":"te deja a ti ganar   ",        
+                "entrada":25,    
+                "salida":26 
+    },{       	"letra":"porque es tu amigo ¡y eso basta!   ",       
+                "entrada":26,   
+                "salida":27     
+    },{       	"letra":"Es... tu amigo es,   ",    
+                "entrada":27,    
+                "salida":28 
+    },{       	"letra":"aquel que está a tu lado, es   ",      
+                "entrada":28,    
+                "salida":29    
+    },{       	"letra":"la sonrisa que contagia con su música,   ",      
+                "entrada":29,    
+                "salida":30    
+    },{       	"letra":"y a cantarla somos tú y yo.   ",    
+                "entrada":30,    
+                "salida":31     
+    },{       	"letra":"Es... un coro es,   ",         
+                "entrada":31,   
+                "salida":32     
+    },{       	"letra":"cuanto más grande sea mejor es,   ",    
+                "entrada":32,   
+                "salida":33     
+    },{       	"letra":"oh, oh, oh, oh, oh,    oh, ooh   ",    
+                "entrada":33,       
+                "salida":34     
+    },{       	"letra":"y a cantarla somos tú y yo.   ",    
+                "entrada":34,    
+                "salida":35     
+    },{       	"letra":"Es, tu amigo es,   ",    
+                "entrada":35,    
+                "salida":36     
+    },{       	"letra":"Uno que te ama y no te pide más;   ",    
+                "entrada":36,       
+                "salida":37     
+    },{       	"letra":"y tus locuras él aguanta cada día   ",    
+                "entrada":37,       
+                "salida":38    
+    },{       	"letra":"tanto que, a veces,   ",   
+                "entrada":38,   
+                "salida":39 
+    },{       	"letra":"de su vida te apartaría.  ",    
+                "entrada":39,    
+                "salida":40     
+    },{       	"letra":"Pero es él, como tu piel,   ", 
+                "entrada":40,    
+                "salida":41     
+    },{       	"letra":"En este mundo no hay nada mejor.   ",    
+                "entrada":41,    
+                "salida":42     
+    },{       	"letra":"No se lo pintes bien,   ",    
+                "entrada":42,    
+                "salida":43     
+    },{       	"letra":"y díselo tal cual,   ",    
+                "entrada":43,    
+                "salida":44     
+    },{       	"letra":"porque es tu amigo ¡y eso basta!   ",    
+                "entrada":44,       
+                "salida":45     
+    },{       	"letra":"Es... tu amigo es,   ",    
+                "entrada":45,    
+                "salida":46 
+    },{       	"letra":"aquel que está a tu lado, es   ",      
+                "entrada":46,   
+                "salida":47    
+    },{       	"letra":"la sonrisa que contagia con su música,   ",      
+                "entrada":47,   
+                "salida":48    
+    },{       	"letra":"y a cantarla somos tú y yo.   ",    
+                "entrada":48,    
+                "salida":49     
+    },{       	"letra":"Es... un coro es,   ",     
+                "entrada":49,   
+                "salida":50     
+    },{       	"letra":"cuanto más grande sea mejor es,   ",    
+                "entrada":50,   
+                "salida":51     
+    },{       	"letra":"oh, oh, oh, oh, oh,    oh, ooh   ",    
+                "entrada":51,    
+                "salida":52     
+    },{       	"letra":"y a cantarla somos tú y yo.   ",    
+                "entrada":52,    
+                "salida":53                 
+    }
+]
     }, {
         "id": 80,
         "nombre": "Escucha tú",
@@ -10819,7 +11770,28 @@ también con el corazón.
 
 Escucha tú, la palabra de Dios,
 
-estate siempre atento a su voz.`
+estate siempre atento a su voz.`,
+"frasesCancionConTiempo": [
+    {        "letra": "Escucha tú,   ",
+        "entrada": 1.1,
+        "salida": 2.1
+    },{        "letra": "la palabra de Dios.  ",
+        "entrada": 2.1,
+        "salida": 3.1   
+    },{       "letra":"No sólo con tus oídos,   ",
+        "entrada": 3.1,
+        "salida": 4.1   
+    },{       "letra":"también con el corazón.  ",    
+        "entrada": 4.1,     
+        "salida": 5.1   
+    },{       "letra":"Escucha tú, la palabra de Dios,   ",
+        "entrada": 5.1,
+        "salida": 6.1   
+    },{       "letra":"estate siempre atento a su voz.   ",        
+        "entrada": 6.1, 
+        "salida": 7.1   
+    }
+]
     }, {
         "id": 81,
         "nombre": "Espíritu de Dios",
